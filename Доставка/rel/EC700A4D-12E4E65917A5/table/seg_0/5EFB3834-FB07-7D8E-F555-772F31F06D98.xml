@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EFB3834-FB07-7D8E-F555-772F31F06D98" name="ORDERS">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>5A467B2F-B912-59A4-1C9E-217C7C56C43C</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_id" id="F86C3911-2F77-5742-7C89-5D669C487A88">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>0B60FFAF-7286-CD57-5778-F35FDA8414C0</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_date" id="EE5FD31A-82A7-B3D1-CD87-CEBC385920A7">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>B51FFF2C-9F3A-0F05-B47A-991A5D6CB6A5</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS_address_id" id="F516AE3D-9292-A5FA-CD0D-1EA3D17091DF">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>126F404C-CD8C-A342-EB5F-BA93030F825F</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11D49C94-1137-131A-ABE6-1576BB0F64CC" referredColumn="5573E9A0-F42B-355E-D0BC-DBC5F2F57E2C"/>
+</associations>
+</Column>
+<Column name="ORDER_STATUS_order_status_id" id="35175603-AF2F-24B7-F762-C37B73019AF3">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>F0561B18-8352-DFE7-091A-EAA54F572A21</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98DAFF77-C68B-A062-F6F3-AE172ED3CB68" referredColumn="35A61012-DDB1-DDD9-F767-792A5A2BCFFF"/>
+</associations>
+</Column>
+<Column name="CLIENT_client_id" id="53D13E6F-3EB0-B1E9-5225-6D72CF12D5DF">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>2C765C15-EEA1-E0EA-8F42-3246EFF866A6</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="939B4A1B-63A1-EC42-CE9E-B101D0FE4D62" referredColumn="91841204-8F2F-FD6F-92CD-962B86288612"/>
+</associations>
+</Column>
+<Column name="CART_cart_id" id="5CE0BFCD-F747-7225-1F52-BEF2AC1AB09E">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>F121382B-84DC-2AC7-CDEC-3BBB1582EDC7</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B423D12E-59CD-A4A7-18C9-647767737FFC" referredColumn="64124E77-451A-0293-1A1A-37ACE125C8FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB8ED5D9-76A4-F465-0502-9CE539088AF2" name="ORDERS_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>FBD65F40-841F-E570-EB8C-CA8B6DDACB1F</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F86C3911-2F77-5742-7C89-5D669C487A88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A01F8040-C27D-FE5E-A1A0-9AF56782381F" name="ORDERS__IDX">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>58B60747-32DC-BC1E-637D-0FB49F0F4339</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5CE0BFCD-F747-7225-1F52-BEF2AC1AB09E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20FA9E0C-11D8-BB2F-DB85-30A39A7BDC8E" name="ORDERS_ADDRESS_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>5D105096-11E0-83D7-A5B9-4F19F8FA54A6</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F516AE3D-9292-A5FA-CD0D-1EA3D17091DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00D2A583-CFEA-0D2F-AC7A-9EB611571033" name="ORDERS_ORDER_STATUS_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>024F4C91-01AD-1674-ECD3-1BF2AF8C3C11</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35175603-AF2F-24B7-F762-C37B73019AF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02F993AE-E49E-3D15-FD42-65F6AD397F15" name="ORDERS_CLIENT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>CD4F6210-EBC4-3E3B-291D-F37E611E6330</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53D13E6F-3EB0-B1E9-5225-6D72CF12D5DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88524EB7-621E-51F1-1CE8-E3172772671E" name="ORDERS_CART_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:32:47 UTC</createdTime>
+<generatorID>58B60747-32DC-BC1E-637D-0FB49F0F4339</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CE0BFCD-F747-7225-1F52-BEF2AC1AB09E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

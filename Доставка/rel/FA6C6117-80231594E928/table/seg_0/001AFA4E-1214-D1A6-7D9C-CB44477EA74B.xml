@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="001AFA4E-1214-D1A6-7D9C-CB44477EA74B" name="CLIENT">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>2B83872B-95AF-D5FD-C64C-0579F577E30B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="client_id" id="42D9F153-24B9-51E4-8DFF-3933A5BCC94E">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>758FBA26-1674-FD6F-6B06-0BA78664255A</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_name" id="3D248217-8FDD-D8D9-3674-24DB6CACA63B">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>9733DBEB-F7A6-6C53-CC6F-5F491A616AB5</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_surname" id="8DF1EB93-66B1-9E7A-9ACF-ADE807D8AC13">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>B84BB38C-DD3A-9647-45F8-92BCF45B7975</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_num" id="196CAFEC-3F09-9678-4E84-C8B8F7D0CD7B">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>87F38C19-5ACE-EAB4-1A42-C3E0382845EC</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_email" id="3B614461-0EAA-974B-28AB-E988ABE62A96">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>BB87E077-C190-62BF-F6F4-48499D6D965B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E21BB8BF-1D8C-E716-6CA4-40EE6EBFFBD2" name="CLIENT_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>1E4893A5-9F0F-9DC4-12B0-2ECB7B5F46CB</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42D9F153-24B9-51E4-8DFF-3933A5BCC94E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

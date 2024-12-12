@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74FFA0A0-1980-823C-19C8-0A50E85D4243" name="ADDRESS">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>C7CFC32C-74C7-4154-2D5A-C120A06CD568</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_id" id="C71AFDDE-FE8C-B4A8-1730-F3B12C824DD5">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>35CA4945-767D-1E3E-3179-CEFB88E75480</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOUSE_id_house" id="B99B6D59-6AE9-9CA5-561E-2A3F64F0DBB0">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>83563BD9-117B-2EA6-E067-2A72B05AAF4E</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C00C0EF-470B-A484-FC5C-03277198C58E" referredColumn="3071F341-A940-4AF1-1A85-867447E63A43"/>
+</associations>
+</Column>
+<Column name="APARTMENT_apartment_id" id="B3724E5D-3909-763B-2BD1-191C08121C18">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>9B6B0B3B-038B-7C7D-76E7-B42CDC16BB8B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD1B0D41-C1C9-77D8-9572-BA1944743653" referredColumn="2CB85DA2-2C23-7217-BDBF-288C0CA191F3"/>
+</associations>
+</Column>
+<Column name="CLIENT_client_id" id="722F5610-12DC-74AD-FF03-AE5AA582AF2A">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>9467E9A4-2365-CE12-DF3E-950B2E0E5681</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="751DD9C2-8A9A-7303-9057-1B03B38014B8" referredColumn="42D9F153-24B9-51E4-8DFF-3933A5BCC94E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AE2E9BD-17E1-3166-716A-602F77AB1ED3" name="ADDRESS_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>7AA0F5A0-250D-3910-1975-35FBDCF1CDFD</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C71AFDDE-FE8C-B4A8-1730-F3B12C824DD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DD357E0-3194-FF7B-659C-040C69E26F14" name="ADDRESS__IDX">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>57CD8955-08BE-1B50-C735-B6C0B2DEEE52</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B99B6D59-6AE9-9CA5-561E-2A3F64F0DBB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32FC3C33-BEC4-E3CC-D93C-5C3D04A846F6" name="ADDRESS__IDXv1">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E9EFA97F-9816-D3D4-73DD-50811A840785</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B3724E5D-3909-763B-2BD1-191C08121C18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="666F745A-2F10-23A9-59C4-C83094D0436C" name="ADDRESS_HOUSE_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>57CD8955-08BE-1B50-C735-B6C0B2DEEE52</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B99B6D59-6AE9-9CA5-561E-2A3F64F0DBB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C10F182-310A-CB81-F823-60FC1E194CCD" name="ADDRESS_APARTMENT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>E9EFA97F-9816-D3D4-73DD-50811A840785</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3724E5D-3909-763B-2BD1-191C08121C18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B05EB1D5-F573-47EA-CE37-BB83638AC371" name="ADDRESS_CLIENT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 11:20:47 UTC</createdTime>
+<generatorID>50E4FA49-ECD6-4224-9659-B57DF3DAB107</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="722F5610-12DC-74AD-FF03-AE5AA582AF2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

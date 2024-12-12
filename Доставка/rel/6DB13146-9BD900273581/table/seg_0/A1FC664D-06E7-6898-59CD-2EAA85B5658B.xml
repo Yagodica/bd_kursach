@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1FC664D-06E7-6898-59CD-2EAA85B5658B" name="CART">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 12:44:21 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISH_dish_id" id="416A334E-9F02-C6E9-2731-1277B459BC01">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 12:44:21 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C77BBAE-2C9A-4C59-CB6D-26DF523C408A" referredColumn="DA55A6E4-3EE0-62E0-9674-D14224007C50"/>
+</associations>
+</Column>
+<Column name="ORDERS_order_id" id="6B3E5500-9E31-7ACB-EBE6-1BCC43D9E98A">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 12:44:21 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67C07125-B618-F4F3-0FA4-27BA2CDBD641" referredColumn="BE0091FD-44B1-0C74-410F-0EEFA9D5D672"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0309DA90-915C-A92A-14CF-A9660165F276" name="CART_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 12:44:21 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="416A334E-9F02-C6E9-2731-1277B459BC01"/>
+<colUsage columnID="6B3E5500-9E31-7ACB-EBE6-1BCC43D9E98A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD7BDD60-B49C-85B1-7C19-AC409BAF2A78" name="CART_DISH_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 12:44:21 UTC</createdTime>
+<generatorID>23F35DCC-B508-B503-3E1C-86127C819F70</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="416A334E-9F02-C6E9-2731-1277B459BC01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5984AB75-0AF0-A539-6427-6B810B873F93" name="CART_ORDERS_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 12:44:21 UTC</createdTime>
+<generatorID>23F35DCC-B508-B503-3E1C-86127C819F70</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B3E5500-9E31-7ACB-EBE6-1BCC43D9E98A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

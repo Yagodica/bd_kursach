@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34D2C033-74B7-9F8D-5D66-6653E21D55CE" name="УЛИЦА">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:12 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>8FD3ACE7-25A1-9BFB-D85C-183E6FDF1656</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>STREET</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id улицы" id="2F6C52C8-3E16-A125-9355-F06A3C67672B">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>00B0BB4D-4C75-C985-5F80-083C175CD9CE</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>id_street</preferredAbbreviation>
+</Attribute>
+<Attribute name="Наименование улицы" id="703ED8FA-9FCA-F7C9-E52E-9E8F38C87073">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>A1915C68-7707-184E-D1AA-9158A4439BFC</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<preferredAbbreviation>street_name</preferredAbbreviation>
+</Attribute>
+<Attribute name="id города" id="EEB0C521-4E65-BB1E-FCFE-874B38D966CC">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<generatorID>79CFCC2C-74C4-8F96-E86B-5544AF442024</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>E5E59A80-E216-C84A-D848-7CB1CDF97934</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<referedAttribute>D47C7BF7-8E44-C1CF-C305-40DD05AEE784</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35FA00E7-A8D2-6A7D-FD11-4581E27BD43D" name="Улица PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>A1293130-1DBB-19BA-966B-3B128947B70E</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F6C52C8-3E16-A125-9355-F06A3C67672B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADC9817B-9D1E-B72A-87EF-D55AC6E05C05" name="ДОМ">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:12 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>F9DCC651-FE00-36CE-AC25-82A73171829C</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>HOUSE</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id дома" id="69ACB5B5-885D-974B-847C-27B129EAB079">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>57034A64-0AAB-F11D-5B73-C6D95E6C4E23</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>id_house</preferredAbbreviation>
+</Attribute>
+<Attribute name="Номер дома" id="153488DE-742C-6FBB-BAF7-571547ED4DA7">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>BF514E3D-7253-3F05-7DF8-37F5CE775343</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>house_num</preferredAbbreviation>
+</Attribute>
+<Attribute name="id улицы" id="065C50A1-27B6-B015-B0CC-6EB9C1CAC50B">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<generatorID>0E2ECF7A-FABA-135E-FCFA-6A393707CFEC</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>6EE4D894-137A-3FAC-7507-FAD13D07EBB7</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<referedAttribute>2F6C52C8-3E16-A125-9355-F06A3C67672B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id адрес" id="F06CC51B-5BDE-7DEC-AF67-952A24F5D568">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<generatorID>57CD8955-08BE-1B50-C735-B6C0B2DEEE52</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>08337440-961C-6C56-401A-202A495A11FD</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>35CA4945-767D-1E3E-3179-CEFB88E75480</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE837721-DDCA-F424-0F65-39E6D869CC79" name="Дом PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>7A69707B-C807-4DE6-12B3-352B9409E20D</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69ACB5B5-885D-974B-847C-27B129EAB079</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

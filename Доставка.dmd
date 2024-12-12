@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Доставка" id="C67E6E78-2AFE-2950-8917-202A55D8E703" version="3.5">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:15:04 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C67E6E78-2AFE-2950-8917-202A55D8E703</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FB348C20-BFB6-9D9E-554B-6D28A331B7FC">
+<designStoragePath>/home/ivan/code/bd_tvorch/Доставка</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

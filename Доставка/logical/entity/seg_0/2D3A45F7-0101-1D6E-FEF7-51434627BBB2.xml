@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D3A45F7-0101-1D6E-FEF7-51434627BBB2" name="КВАРТИРА">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:12 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>15482E92-E43D-FD23-AB72-E02F45AA0333</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>APARTMENT</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id квартиры" id="6D163159-6FC0-F247-2940-A871BD8F915B">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>45EEF110-0D41-68D5-BAD5-E2E7C7E5634A</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>apartment_id</preferredAbbreviation>
+</Attribute>
+<Attribute name="Номер квартиры" id="3EF5EB55-02F6-0E88-9998-25632BC0E456">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>E3102BAA-8483-E0F6-D3DC-F4708EC14509</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>apartment_num</preferredAbbreviation>
+</Attribute>
+<Attribute name="id дома" id="EF68280F-557E-E79A-6EAD-6DC2D944DC63">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<generatorID>B9861679-08E2-932A-3E78-10A7220B71D1</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>05D306C0-A201-7C55-5939-960F29F66C7F</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<referedAttribute>69ACB5B5-885D-974B-847C-27B129EAB079</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id адрес" id="495ECFCE-4DC0-C5C0-7139-50A3003081F2">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<generatorID>E9EFA97F-9816-D3D4-73DD-50811A840785</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>9C7FD712-A751-50CD-89CF-F79607664D0A</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>35CA4945-767D-1E3E-3179-CEFB88E75480</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F540A1F-D731-3146-3BD8-2842669BE471" name="КВАРТИРА PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>AB25A10A-AF5E-517D-7E68-A94E3A8EBA3C</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D163159-6FC0-F247-2940-A871BD8F915B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

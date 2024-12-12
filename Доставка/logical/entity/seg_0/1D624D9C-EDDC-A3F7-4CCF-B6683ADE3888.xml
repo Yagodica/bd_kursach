@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D624D9C-EDDC-A3F7-4CCF-B6683ADE3888" name="ГОРОД">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:12 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>E30E75C3-4E63-8020-8504-95A42077BB91</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CITY</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id города" id="D47C7BF7-8E44-C1CF-C305-40DD05AEE784">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>3B3419FB-066A-9665-3308-027846D9A1A4</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>city_id</preferredAbbreviation>
+</Attribute>
+<Attribute name="Наименование города" id="4759615B-58CD-8AD8-57C6-3E3B1FC734BF">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>E02A1A1D-6DF1-EEC6-3E25-9719910C6F02</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<preferredAbbreviation>city_name</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7DABF7E-FB0F-103D-C57F-62D954742FBE" name="ГОРОД PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>39048FF6-3A40-CC95-62B7-6C562B41995E</importedID>
+<engineerTo>
+<item key="C28A27F2-407A-0F05-F607-766AFCA03DF5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D47C7BF7-8E44-C1CF-C305-40DD05AEE784</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

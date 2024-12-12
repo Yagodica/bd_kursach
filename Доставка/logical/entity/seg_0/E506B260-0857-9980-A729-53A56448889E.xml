@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E506B260-0857-9980-A729-53A56448889E" name="БЛЮДО">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:12 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>43D75DB3-043B-58A3-CE96-590078BEBD68</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>DISH</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id блюда" id="9B44CAF1-C6B2-07F4-9C8F-836F7846F53E">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>AEF6592E-DF62-0233-F888-4564E8C4ADED</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>dish_id</preferredAbbreviation>
+</Attribute>
+<Attribute name="Название блюда" id="C5B60C8C-FB51-C22C-FA91-E0716E1FD2A8">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>9DB370E2-201D-58C1-9DE4-83EA63358985</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<preferredAbbreviation>dish_name</preferredAbbreviation>
+</Attribute>
+<Attribute name="Описание блюда" id="E2A31FA9-9DFF-0F14-91DB-A6091CC26883">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>A61ACEFE-4971-F0E6-AE2A-FBA0A69C2F29</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<preferredAbbreviation>dish_description</preferredAbbreviation>
+</Attribute>
+<Attribute name="Цена блюда" id="87AC0975-6EEC-6DCE-A4E1-9C3874CC7988">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>C7C841C8-4584-E454-3236-B4C6652CEBE7</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>dish_price</preferredAbbreviation>
+</Attribute>
+<Attribute name="id категории" id="56AC5D0C-FB2C-DE32-AFE8-FEAE79DD6146">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<generatorID>CCD391DA-C061-057C-87E2-BB938C197C70</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>FBA6DFDA-040C-AC11-0D80-46DBD9CDB3CE</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<referedAttribute>924C5E3B-DECC-67CD-2A45-9737A2839672</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id поставщика" id="54F71D39-F5B2-EE07-49BE-B8646AACA5CC">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 13:16:31 UTC</createdTime>
+<generatorID>A7F13B0A-C1F5-FBE1-D7EB-57877DB40E27</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<referedAttribute>15E68F51-DBBD-CCF2-0ED5-13C47A3DC298</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB6C16CA-97FC-143C-ECDB-B600729DC7BE" name="БЛЮДО PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>067F97C3-1A6E-9001-649D-2D5E52C1F32F</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B44CAF1-C6B2-07F4-9C8F-836F7846F53E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

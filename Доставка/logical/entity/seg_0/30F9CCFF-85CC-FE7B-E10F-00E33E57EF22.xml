@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30F9CCFF-85CC-FE7B-E10F-00E33E57EF22" name="ПОСТАВЩИК">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:12 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>60CA1984-D637-5652-6C65-FB1B88382A71</importedID>
+<engineerTo>
+<item key="EC700A4D-5ECB-A6FB-322C-12E4E65917A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>SUPPLIER</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id поставщика" id="15E68F51-DBBD-CCF2-0ED5-13C47A3DC298">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>30C60225-B2F0-4F5A-C533-675A89A6341C</importedID>
+<engineerTo>
+<item key="EC700A4D-5ECB-A6FB-322C-12E4E65917A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>supplier_id</preferredAbbreviation>
+</Attribute>
+<Attribute name="Название поставщика" id="C27C6A07-436E-B550-9EA9-09D9C9C3058A">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>F5EB14F7-BF47-6473-9275-B7DE8202E78D</importedID>
+<engineerTo>
+<item key="EC700A4D-5ECB-A6FB-322C-12E4E65917A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<preferredAbbreviation>supplier_name</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="634BCE5D-A27D-A9F5-AF26-5AD9969A09FE" name="ПОДКАТЕГОРИЯ PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>903496E3-3ABC-EF87-143B-69A5CEDB5E99</importedID>
+<engineerTo>
+<item key="EC700A4D-5ECB-A6FB-322C-12E4E65917A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15E68F51-DBBD-CCF2-0ED5-13C47A3DC298</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

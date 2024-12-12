@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A467B2F-B912-59A4-1C9E-217C7C56C43C" name="ЗАКАЗЫ">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:12 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>1F18E032-A858-5A4A-72CB-D27FE9B038E0</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ORDERS</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id заказа" id="0B60FFAF-7286-CD57-5778-F35FDA8414C0">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>BA475D17-D75B-828C-B6BA-3FB5552E7177</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>order_id</preferredAbbreviation>
+</Attribute>
+<Attribute name="Дата заказа" id="B51FFF2C-9F3A-0F05-B47A-991A5D6CB6A5">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>ABAE1678-0A59-9498-A62D-346216721500</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>order_date</preferredAbbreviation>
+</Attribute>
+<Attribute name="Требуемая дата" id="64B5A7D2-5CF4-5E9F-69DE-71251E052B1D">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 10:18:34 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>required_date</preferredAbbreviation>
+</Attribute>
+<Attribute name="id адрес" id="126F404C-CD8C-A342-EB5F-BA93030F825F">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<generatorID>5D105096-11E0-83D7-A5B9-4F19F8FA54A6</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>6F1157AE-909C-C845-6E1C-83B1F71DC22C</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<referedAttribute>35CA4945-767D-1E3E-3179-CEFB88E75480</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id статуса заказа" id="F0561B18-8352-DFE7-091A-EAA54F572A21">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<generatorID>024F4C91-01AD-1674-ECD3-1BF2AF8C3C11</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>A9C1AFE9-FD10-7C52-8558-EC28DA1E8F90</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<referedAttribute>51F0AA89-F518-8473-9F25-72F57A944BA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id клиента" id="2C765C15-EEA1-E0EA-8F42-3246EFF866A6">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<generatorID>CD4F6210-EBC4-3E3B-291D-F37E611E6330</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>49F9D58D-77D8-230D-A98E-8C9027273E3D</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<referedAttribute>758FBA26-1674-FD6F-6B06-0BA78664255A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Общая сумма заказа" id="A617E162-5C11-5B1B-A84D-08953A0A5260">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-02 19:23:37 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>order_total_amount</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBD65F40-841F-E570-EB8C-CA8B6DDACB1F" name="Заказ PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-11-29 07:22:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>DE10FF74-7504-7E78-0F8A-3F1B0C175D4D</importedID>
+<engineerTo>
+<item key="F458E9C9-7A3F-BAE9-48FC-A0FCE6F13743" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B60FFAF-7286-CD57-5778-F35FDA8414C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
