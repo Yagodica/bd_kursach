@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B2AE402-3EE2-50AA-0F69-5E155FBC6D50" name="ГРАФИК РАБОТЫ">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 18:37:49 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>WORK_SCHEDULE</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id графика" id="228A50A6-430A-6B4A-4DD3-BFC56F2516B0">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 18:39:03 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>schedule_id</preferredAbbreviation>
+</Attribute>
+<Attribute name="Начало смены" id="B882EFAC-6E4D-76B9-DF66-EF6145DED5F1">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 18:40:14 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>shift_start</preferredAbbreviation>
+</Attribute>
+<Attribute name="Конец смены" id="E6423A87-64A3-9E7E-69D5-D91B7DB02DCF">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 18:40:32 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>shift_end</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3766D357-71F1-93E9-B984-CDAB2E1206A1" name="ГРАФИК РАБОТЫ PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 18:39:27 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>228A50A6-430A-6B4A-4DD3-BFC56F2516B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

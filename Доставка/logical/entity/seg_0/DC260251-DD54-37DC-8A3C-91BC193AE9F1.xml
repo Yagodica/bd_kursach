@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC260251-DD54-37DC-8A3C-91BC193AE9F1" name="КОРЗИНА">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>B554D51E-91A8-0290-33A0-38C9E2E6CFB6</importedID>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CART</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id корзины" id="1F413234-4BC5-4C61-D2B3-02A815056D15">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>C78AC130-E0BA-DFCB-8C39-2D8D898C1C99</importedID>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>cart_id</preferredAbbreviation>
+</Attribute>
+<Attribute name="id заказа" id="666CBA50-4769-E0F7-DDE2-CBC5C1B70796">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<generatorID>0E3A0485-61B4-A92E-75C2-68CA884A75D2</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>3E3882E7-76B2-B070-2190-A02F846A6244</importedID>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<referedAttribute>5AF1CD39-09E1-9FD5-4BDB-B783F1E26909</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id блюда" id="B55D1BC3-BA8F-25C7-FB83-AF57EC61EF8D">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<generatorID>CFE7E203-4CE7-893C-D040-993F3EABBA61</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>A6C98B6E-19CA-8B28-1151-EED260DDE7C6</importedID>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<referedAttribute>97013316-1F57-9280-38E7-704A87DFDB1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Количество" id="43D28489-5E6F-12D9-A5B8-45CA1D2FBD15">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>CA2720D1-3F79-6BB6-E1C2-7407CF1E8C35</importedID>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>quantity</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B16E5CB-F622-B263-0B37-9D728572B2A2" name="КОРЗИНА PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>650AC329-149A-D373-097A-243BBD354951</importedID>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F413234-4BC5-4C61-D2B3-02A815056D15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
