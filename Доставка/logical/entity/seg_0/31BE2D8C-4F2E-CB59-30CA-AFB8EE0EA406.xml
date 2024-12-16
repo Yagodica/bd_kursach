@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B2AE402-3EE2-50AA-0F69-5E155FBC6D50" name="ГРАФИК">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31BE2D8C-4F2E-CB59-30CA-AFB8EE0EA406" name="ОПЛАТА">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:37:49 UTC</createdTime>
+<createdTime>2024-12-15 11:49:14 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
@@ -14,11 +14,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>SCHEDULE</preferredAbbreviation>
+<preferredAbbreviation>PAYMENT</preferredAbbreviation>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id графика" id="228A50A6-430A-6B4A-4DD3-BFC56F2516B0">
+<Attribute name="id платежа" id="4CFAEDF7-9229-0977-5C13-27956EEB6104">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:39:03 UTC</createdTime>
+<createdTime>2024-12-15 11:56:11 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
@@ -27,37 +27,24 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>schedule_id</preferredAbbreviation>
+<preferredAbbreviation>payment_id</preferredAbbreviation>
 </Attribute>
-<Attribute name="Начало смены" id="B882EFAC-6E4D-76B9-DF66-EF6145DED5F1">
+<Attribute name="Дата" id="49E396C7-450C-BA29-5242-B3738D01DC2D">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:40:14 UTC</createdTime>
+<createdTime>2024-12-15 12:45:21 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>shift_start</preferredAbbreviation>
+<preferredAbbreviation>date</preferredAbbreviation>
 </Attribute>
-<Attribute name="Конец смены" id="E6423A87-64A3-9E7E-69D5-D91B7DB02DCF">
+<Attribute name="Способ оплаты" id="9F5B001F-F990-CC2E-7330-DEC9C148F7D9">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:40:32 UTC</createdTime>
-<ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>shift_end</preferredAbbreviation>
-</Attribute>
-<Attribute name="День недели" id="117E4EC9-DD62-DCA5-E10E-E7A45FBEC1A4">
-<createdBy>ivan</createdBy>
-<createdTime>2024-12-15 10:12:33 UTC</createdTime>
+<createdTime>2024-12-15 13:19:34 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
@@ -67,34 +54,35 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
-<preferredAbbreviation>week_day</preferredAbbreviation>
+<preferredAbbreviation>payment_method</preferredAbbreviation>
 </Attribute>
-<Attribute name="id сотрудника" id="BC566630-2E29-FBA2-2A07-AF3D670E825B">
+<Attribute name="Сумма" id="7746B576-5D46-B66A-7AAB-EDD5C5F2DB91">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-15 09:44:05 UTC</createdTime>
-<generatorID>751D4317-18E0-0FD7-BD8B-3D6403BD6CDF</generatorID>
+<createdTime>2024-12-15 18:53:51 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
-<referedAttribute>867CE893-A926-1B60-BEA0-6F249E77923C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<preferredAbbreviation>amount</preferredAbbreviation>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3766D357-71F1-93E9-B984-CDAB2E1206A1" name="ГРАФИК РАБОТЫ PK">
+<identifier id="05E7235E-9925-7F70-7F14-D600EA28D790" name="ОПЛАТА PK">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:39:27 UTC</createdTime>
+<createdTime>2024-12-15 13:20:58 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>228A50A6-430A-6B4A-4DD3-BFC56F2516B0</attributeRef>
+<attributeRef>4CFAEDF7-9229-0977-5C13-27956EEB6104</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

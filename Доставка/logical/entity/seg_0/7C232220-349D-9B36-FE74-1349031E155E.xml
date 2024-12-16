@@ -27,6 +27,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>employee_id</preferredAbbreviation>
 </Attribute>
 <Attribute name="Имя сотрудника" id="9617E140-32C8-85B6-8585-D82FED3BF564">
 <createdBy>ivan</createdBy>
@@ -84,6 +85,48 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <preferredAbbreviation>gender</preferredAbbreviation>
+</Attribute>
+<Attribute name="Роль сотрудника" id="1541632A-D863-3C25-E7E6-AA1A02FCEC80">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-15 17:30:08 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<preferredAbbreviation>role</preferredAbbreviation>
+</Attribute>
+<Attribute name="id телефона" id="1927E8D3-F4C6-A333-613D-8E5BB01B7AE5">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-14 09:47:37 UTC</createdTime>
+<generatorID>4D6606D4-9719-70A4-F603-9B59DF7C8239</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<referedAttribute>C1066160-0525-FF12-C246-C3B7DE22B01A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id ресторана" id="35287D0F-87AC-22A0-1B99-6F8E7502778B">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-14 19:32:14 UTC</createdTime>
+<generatorID>9EFEAFDE-0B5B-C457-DE5E-2C87FA90B51E</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<referedAttribute>9CB26345-0545-6F95-423F-7EE9CC2749C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

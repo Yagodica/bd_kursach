@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49F1F89E-4886-00A2-8327-3353584BE528" name="БЛЮДО">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49F1F89E-4886-00A2-8327-3353584BE528" name="МЕНЮ">
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
@@ -15,9 +15,9 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>DISH</preferredAbbreviation>
+<preferredAbbreviation>MENU</preferredAbbreviation>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id блюда" id="97013316-1F57-9280-38E7-704A87DFDB1D">
+<Attribute name="id позиции" id="97013316-1F57-9280-38E7-704A87DFDB1D">
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
@@ -29,9 +29,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>dish_id</preferredAbbreviation>
+<preferredAbbreviation>position_id</preferredAbbreviation>
 </Attribute>
-<Attribute name="Название блюда" id="5EFBDF03-018D-3225-E873-FCB0E68A62F2">
+<Attribute name="Название позиции" id="5EFBDF03-018D-3225-E873-FCB0E68A62F2">
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
@@ -44,9 +44,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
-<preferredAbbreviation>dish_name</preferredAbbreviation>
+<preferredAbbreviation>position_name</preferredAbbreviation>
 </Attribute>
-<Attribute name="Описание блюда" id="586FF568-7C34-F555-AA4A-EDAC8109762C">
+<Attribute name="Описание позиции" id="586FF568-7C34-F555-AA4A-EDAC8109762C">
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
@@ -59,9 +59,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
-<preferredAbbreviation>dish_description</preferredAbbreviation>
+<preferredAbbreviation>position_description</preferredAbbreviation>
 </Attribute>
-<Attribute name="Цена блюда" id="E72AC608-B90F-49ED-88F9-D0A6902A7C65">
+<Attribute name="Цена позиции" id="E72AC608-B90F-49ED-88F9-D0A6902A7C65">
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
@@ -73,7 +73,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>dish_price</preferredAbbreviation>
+<preferredAbbreviation>position_price</preferredAbbreviation>
 </Attribute>
 <Attribute name="id категории" id="234A01A9-668B-2604-7529-3874B2096B64">
 <createdBy>ivan</createdBy>
@@ -85,21 +85,6 @@
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
 <referedAttribute>355FDD2F-83CC-DECC-C7F1-DEC3CFFBBF2F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id ресторана" id="544DE48F-55D8-517C-F9EA-8E93F89765E2">
-<createdBy>ivan</createdBy>
-<createdTime>2024-12-12 17:45:41 UTC</createdTime>
-<generatorID>436F6214-7FA1-D9BD-EA3D-8329E57F61B6</generatorID>
-<ownerDesignName>Доставка</ownerDesignName>
-<importedID>54F71D39-F5B2-EE07-49BE-B8646AACA5CC</importedID>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
-<referedAttribute>9CB26345-0545-6F95-423F-7EE9CC2749C1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

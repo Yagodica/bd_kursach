@@ -1,9 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC260251-DD54-37DC-8A3C-91BC193AE9F1" name="КОРЗИНА">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77A06F47-8BA4-3055-801B-59E9BA98896F" name="ЗАКУПКА ИНГРЕДИЕНТОВ">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<createdTime>2024-12-15 14:01:28 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<importedID>B554D51E-91A8-0290-33A0-38C9E2E6CFB6</importedID>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
@@ -15,13 +14,12 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>CART</preferredAbbreviation>
+<preferredAbbreviation>PURCHASING_INGREDIENTS</preferredAbbreviation>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id корзины" id="1F413234-4BC5-4C61-D2B3-02A815056D15">
+<Attribute name="id закупки" id="3B46ABB7-240F-7933-FD0D-28849C63DF10">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<createdTime>2024-12-15 14:33:26 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<importedID>C78AC130-E0BA-DFCB-8C39-2D8D898C1C99</importedID>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
@@ -29,43 +27,40 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>cart_id</preferredAbbreviation>
+<preferredAbbreviation>purchase_id</preferredAbbreviation>
 </Attribute>
-<Attribute name="id заказа" id="666CBA50-4769-E0F7-DDE2-CBC5C1B70796">
+<Attribute name="id ингредиента" id="7C892ACA-B209-FD31-9A7D-3083101FE496">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 17:45:41 UTC</createdTime>
-<generatorID>0E3A0485-61B4-A92E-75C2-68CA884A75D2</generatorID>
+<createdTime>2024-12-15 16:33:13 UTC</createdTime>
+<generatorID>2C635B20-ECEB-206A-EC31-AC37D6AD3150</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
-<importedID>3E3882E7-76B2-B070-2190-A02F846A6244</importedID>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
-<referedAttribute>5AF1CD39-09E1-9FD5-4BDB-B783F1E26909</referedAttribute>
+<referedAttribute>CB02E6B3-A8CC-BA95-78D4-1D8A9642C028</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id позиции" id="B55D1BC3-BA8F-25C7-FB83-AF57EC61EF8D">
+<Attribute name="id поставщика" id="E85CE949-01F9-C1D3-33D0-DA88FE96AA17">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 17:45:41 UTC</createdTime>
-<generatorID>CFE7E203-4CE7-893C-D040-993F3EABBA61</generatorID>
+<createdTime>2024-12-16 07:10:13 UTC</createdTime>
+<generatorID>08261B25-AFA7-BC9F-7885-7FC8F091CBB5</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
-<importedID>A6C98B6E-19CA-8B28-1151-EED260DDE7C6</importedID>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
-<referedAttribute>97013316-1F57-9280-38E7-704A87DFDB1D</referedAttribute>
+<referedAttribute>D43B8CB3-2D23-DEEF-3EE5-E17CDBBEBFE3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Количество" id="43D28489-5E6F-12D9-A5B8-45CA1D2FBD15">
+<Attribute name="Количество" id="5B5F855C-7FD5-DF66-725C-AD5DBD76EB24">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<createdTime>2024-12-15 14:45:22 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<importedID>CA2720D1-3F79-6BB6-E1C2-7407CF1E8C35</importedID>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
@@ -75,32 +70,46 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <preferredAbbreviation>quantity</preferredAbbreviation>
 </Attribute>
-<Attribute name="Цена" id="22209449-5475-2A1B-8881-85003D8EB75D">
+<Attribute name="Стоимость" id="EB0CB471-FB67-65B7-B5C1-F9EC899FFA8E">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-14 09:44:15 UTC</createdTime>
+<createdTime>2024-12-16 07:14:06 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
 <preferredAbbreviation>price</preferredAbbreviation>
+</Attribute>
+<Attribute name="Дата" id="EB8449B0-1293-FC54-90EE-F19202952CF2">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-15 14:37:38 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>date</preferredAbbreviation>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1B16E5CB-F622-B263-0B37-9D728572B2A2" name="КОРЗИНА PK">
+<identifier id="56CA8734-0A1F-497E-53BF-F307FC247618" name="ЗАКУПКА ИНГРЕДИЕНТОВ PK">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<createdTime>2024-12-15 14:47:56 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<importedID>650AC329-149A-D373-097A-243BBD354951</importedID>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1F413234-4BC5-4C61-D2B3-02A815056D15</attributeRef>
+<attributeRef>3B46ABB7-240F-7933-FD0D-28849C63DF10</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

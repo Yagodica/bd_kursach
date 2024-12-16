@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B2AE402-3EE2-50AA-0F69-5E155FBC6D50" name="ГРАФИК">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10D80850-8242-5ABE-0BFB-78A19225FD9C" name="БРОНИРОВАНИЕ">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:37:49 UTC</createdTime>
+<createdTime>2024-12-14 10:03:21 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
@@ -14,11 +14,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>SCHEDULE</preferredAbbreviation>
+<preferredAbbreviation>BOOKING</preferredAbbreviation>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id графика" id="228A50A6-430A-6B4A-4DD3-BFC56F2516B0">
+<Attribute name="id брони" id="B8DA1C2E-C2D4-CEDD-1AEB-15B565A5C279">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:39:03 UTC</createdTime>
+<createdTime>2024-12-14 10:05:43 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
@@ -27,57 +27,71 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>schedule_id</preferredAbbreviation>
+<preferredAbbreviation>booking_id</preferredAbbreviation>
 </Attribute>
-<Attribute name="Начало смены" id="B882EFAC-6E4D-76B9-DF66-EF6145DED5F1">
+<Attribute name="Дата брони" id="0E62BF83-D78C-A393-3C11-509117934199">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:40:14 UTC</createdTime>
+<createdTime>2024-12-14 10:05:43 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>shift_start</preferredAbbreviation>
+<preferredAbbreviation>booking_date</preferredAbbreviation>
 </Attribute>
-<Attribute name="Конец смены" id="E6423A87-64A3-9E7E-69D5-D91B7DB02DCF">
+<Attribute name="Количество гостей" id="47F23248-B8B7-31E7-F307-34C4806E8411">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:40:32 UTC</createdTime>
+<createdTime>2024-12-15 17:09:50 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>shift_end</preferredAbbreviation>
+<preferredAbbreviation>num_guests</preferredAbbreviation>
 </Attribute>
-<Attribute name="День недели" id="117E4EC9-DD62-DCA5-E10E-E7A45FBEC1A4">
+<Attribute name="id клиента" id="6C539085-1036-D094-BCA9-C1595A7A54D9">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-15 10:12:33 UTC</createdTime>
+<createdTime>2024-12-14 10:07:55 UTC</createdTime>
+<generatorID>D3DE31FC-DB85-B70F-C3FF-DBE1B9CA7665</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
+<referedAttribute>550B07C6-E365-6AD4-F045-8CC2B0A1E8A1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<preferredAbbreviation>week_day</preferredAbbreviation>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id сотрудника" id="BC566630-2E29-FBA2-2A07-AF3D670E825B">
+<Attribute name="id столика" id="960D2307-E38F-AE77-E6B1-2E953E375FF8">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-15 09:44:05 UTC</createdTime>
-<generatorID>751D4317-18E0-0FD7-BD8B-3D6403BD6CDF</generatorID>
+<createdTime>2024-12-15 20:23:51 UTC</createdTime>
+<generatorID>BAA9BC53-A030-62DC-F7B6-653677885862</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
-<referedAttribute>867CE893-A926-1B60-BEA0-6F249E77923C</referedAttribute>
+<referedAttribute>0DD8C3ED-691A-AE7F-3517-32E302BC08EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id зала" id="EAF485A0-A634-F1AF-8E03-C3AF64D5CCBD">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-15 20:23:55 UTC</createdTime>
+<generatorID>75079808-D504-460D-A0A1-DE6645D9FCBA</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<referedAttribute>D329F740-A621-87A2-FE16-117F28F71243</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -85,16 +99,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3766D357-71F1-93E9-B984-CDAB2E1206A1" name="ГРАФИК РАБОТЫ PK">
+<identifier id="CE3CE9B7-A67E-31AD-14EA-08F835AE8540" name="БРОНИРОВАНИЕ PK">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:39:27 UTC</createdTime>
+<createdTime>2024-12-14 10:07:26 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>228A50A6-430A-6B4A-4DD3-BFC56F2516B0</attributeRef>
+<attributeRef>B8DA1C2E-C2D4-CEDD-1AEB-15B565A5C279</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

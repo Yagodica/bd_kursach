@@ -59,6 +59,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <preferredAbbreviation>required_date</preferredAbbreviation>
 </Attribute>
+<Attribute name="Общая сумма заказа" id="E9A372CE-6D9D-AA83-B8AE-09B115205D48">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<importedID>A617E162-5C11-5B1B-A84D-08953A0A5260</importedID>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>order_total_amount</preferredAbbreviation>
+</Attribute>
 <Attribute name="id адрес" id="7C5ADE3F-59AE-070A-3A4F-CE56F9A86DB3">
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
@@ -104,19 +118,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Общая сумма заказа" id="E9A372CE-6D9D-AA83-B8AE-09B115205D48">
+<Attribute name="id платежа" id="B19E053D-D19C-70A5-F6E7-D76DDB650D04">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 17:45:41 UTC</createdTime>
+<createdTime>2024-12-15 19:00:40 UTC</createdTime>
+<generatorID>BFA038F9-CEDB-871F-CF73-660E29C1A65B</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
-<importedID>A617E162-5C11-5B1B-A84D-08953A0A5260</importedID>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
+<referedAttribute>4CFAEDF7-9229-0977-5C13-27956EEB6104</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>order_total_amount</preferredAbbreviation>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

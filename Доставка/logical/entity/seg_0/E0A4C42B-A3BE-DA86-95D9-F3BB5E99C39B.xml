@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B2AE402-3EE2-50AA-0F69-5E155FBC6D50" name="ГРАФИК">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0A4C42B-A3BE-DA86-95D9-F3BB5E99C39B" name="СТОЛИК">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:37:49 UTC</createdTime>
+<createdTime>2024-12-14 10:29:48 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
@@ -14,11 +14,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>SCHEDULE</preferredAbbreviation>
+<preferredAbbreviation>TABLE</preferredAbbreviation>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id графика" id="228A50A6-430A-6B4A-4DD3-BFC56F2516B0">
+<Attribute name="id столика" id="0DD8C3ED-691A-AE7F-3517-32E302BC08EE">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:39:03 UTC</createdTime>
+<createdTime>2024-12-14 10:30:02 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
@@ -27,74 +27,60 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>schedule_id</preferredAbbreviation>
+<preferredAbbreviation>table_id</preferredAbbreviation>
 </Attribute>
-<Attribute name="Начало смены" id="B882EFAC-6E4D-76B9-DF66-EF6145DED5F1">
+<Attribute name="id ресторана" id="D7652F2C-0AC2-25F9-7A22-4DC8C2BA794E">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:40:14 UTC</createdTime>
+<createdTime>2024-12-15 19:48:43 UTC</createdTime>
+<generatorID>CDDD9DF1-8754-CC00-142B-A6A8C4517DBD</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>shift_start</preferredAbbreviation>
-</Attribute>
-<Attribute name="Конец смены" id="E6423A87-64A3-9E7E-69D5-D91B7DB02DCF">
-<createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:40:32 UTC</createdTime>
-<ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>shift_end</preferredAbbreviation>
-</Attribute>
-<Attribute name="День недели" id="117E4EC9-DD62-DCA5-E10E-E7A45FBEC1A4">
-<createdBy>ivan</createdBy>
-<createdTime>2024-12-15 10:12:33 UTC</createdTime>
-<ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<preferredAbbreviation>week_day</preferredAbbreviation>
-</Attribute>
-<Attribute name="id сотрудника" id="BC566630-2E29-FBA2-2A07-AF3D670E825B">
-<createdBy>ivan</createdBy>
-<createdTime>2024-12-15 09:44:05 UTC</createdTime>
-<generatorID>751D4317-18E0-0FD7-BD8B-3D6403BD6CDF</generatorID>
-<ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
-<referedAttribute>867CE893-A926-1B60-BEA0-6F249E77923C</referedAttribute>
+<referedAttribute>9CB26345-0545-6F95-423F-7EE9CC2749C1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер столика" id="700AD371-C7A4-4C53-262C-ED757EA01195">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-14 10:30:03 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>table_num</preferredAbbreviation>
+</Attribute>
+<Attribute name="Вместимость" id="DACCB88D-368C-3A32-2F0A-1F6CA9ED69E8">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-15 10:32:12 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>capacity</preferredAbbreviation>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3766D357-71F1-93E9-B984-CDAB2E1206A1" name="ГРАФИК РАБОТЫ PK">
+<identifier id="F24918F8-0BD2-46E5-2EE1-15FDE7ADE0C6" name="СТОЛИК PK">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-12 18:39:27 UTC</createdTime>
+<createdTime>2024-12-14 10:31:30 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
 <item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>228A50A6-430A-6B4A-4DD3-BFC56F2516B0</attributeRef>
+<attributeRef>0DD8C3ED-691A-AE7F-3517-32E302BC08EE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
