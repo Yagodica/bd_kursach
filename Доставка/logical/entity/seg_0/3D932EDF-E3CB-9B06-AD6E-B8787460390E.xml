@@ -3,9 +3,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 10:49:31 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,9 +17,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 10:52:46 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -33,9 +27,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 10:52:46 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -47,9 +38,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 19:44:39 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -61,9 +49,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 19:44:03 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -74,9 +59,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-16 07:50:07 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -88,9 +70,6 @@
 <createdTime>2024-12-15 20:05:07 UTC</createdTime>
 <generatorID>DA940765-C661-3F0D-7E28-8895C2301382</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
-</engineerTo>
 <referedAttribute>D329F740-A621-87A2-FE16-117F28F71243</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -103,9 +82,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 11:02:50 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>DC7DDB70-E895-DAFE-40CB-0FED60182926</attributeRef>

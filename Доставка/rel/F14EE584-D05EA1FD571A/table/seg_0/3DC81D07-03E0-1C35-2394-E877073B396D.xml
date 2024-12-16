@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DC81D07-03E0-1C35-2394-E877073B396D" name="COUNTRY">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>286FC1D0-237C-194A-22F5-AE320082E4A7</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="country_id" id="9AFC83AA-D21D-F729-2C0D-561AD9192903">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>C80631DB-781D-C0D4-C35D-1482C6992348</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_name" id="976797BF-10C3-DE8A-4B8A-DB3825C3591F">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>84DE5670-A802-8D65-7FA3-8F9BA3ED148D</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E081B5F-9E86-13B9-2F92-2076B640A141" name="COUNTRY_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>A99DFD38-C19E-45A7-045E-37028C73111E</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AFC83AA-D21D-F729-2C0D-561AD9192903"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

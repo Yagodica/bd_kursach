@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="238591CF-7660-82AC-BEF3-E67D3C82842F" name="CART">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>DC260251-DD54-37DC-8A3C-91BC193AE9F1</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cart_id" id="0B0A0ECB-A479-4570-E110-56229356EBE4">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>1F413234-4BC5-4C61-D2B3-02A815056D15</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERS_order_id" id="DA4A0B2B-9319-89BE-8A10-3A5E402E6AC5">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>666CBA50-4769-E0F7-DDE2-CBC5C1B70796</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EA41C15-665B-6EA1-0A69-8956602786F8" referredColumn="31E562BE-140D-0DC1-E5FE-BE18CC11BA19"/>
+</associations>
+</Column>
+<Column name="MENU_position_id" id="B15C2E52-7BC7-AB37-C072-7FD5CE1BAB7F">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>B55D1BC3-BA8F-25C7-FB83-AF57EC61EF8D</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D3BF7B7-8B85-EDAD-CF00-611ABB3C5B12" referredColumn="C54A535B-0646-DB07-25C9-FC6060E279DC"/>
+</associations>
+</Column>
+<Column name="quantity" id="22C9C97F-AF80-42AC-819C-C535B2BC5893">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>43D28489-5E6F-12D9-A5B8-45CA1D2FBD15</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="5AEC1158-22D2-A181-BFB5-8CE19C015CDB">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>22209449-5475-2A1B-8881-85003D8EB75D</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A312582E-6F6E-1F74-D99A-DB9523005254" name="CART_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>1B16E5CB-F622-B263-0B37-9D728572B2A2</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B0A0ECB-A479-4570-E110-56229356EBE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BECEC308-F705-96C9-96AB-C9ABD59AE27B" name="CART_ORDERS_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>0E3A0485-61B4-A92E-75C2-68CA884A75D2</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA4A0B2B-9319-89BE-8A10-3A5E402E6AC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13978C17-EC59-6356-7C14-7B743A0DA962" name="CART_MENU_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>CFE7E203-4CE7-893C-D040-993F3EABBA61</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B15C2E52-7BC7-AB37-C072-7FD5CE1BAB7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -4,9 +4,6 @@
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>57CD8955-08BE-1B50-C735-B6C0B2DEEE52</importedID>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <sourcePk>D2399A80-3F01-9051-3F6A-EA6471565784</sourcePk>
 <targetPk>BF5C2E7F-27E3-001F-71F0-99FB589D78B9</targetPk>
 <arc>B7EC7F41-91B1-DA92-770C-87685BEFE0CC</arc>

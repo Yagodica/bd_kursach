@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4230FB5-C335-152F-5D06-56FABD365EEE" name="MENU">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>49F1F89E-4886-00A2-8327-3353584BE528</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="position_id" id="3E65071B-3CE8-2771-65D5-0D29D234D530">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>97013316-1F57-9280-38E7-704A87DFDB1D</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="position_name" id="7325F1B3-9CDB-2261-73CB-1F8EFAEB8A7F">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>5EFBDF03-018D-3225-E873-FCB0E68A62F2</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="position_description" id="F7D0A33A-1AF8-7CA5-67D1-D7E0FB20B8EC">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>586FF568-7C34-F555-AA4A-EDAC8109762C</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="position_price" id="FFB246DC-7A48-C943-E1DE-CB124D657204">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>E72AC608-B90F-49ED-88F9-D0A6902A7C65</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY_category_id" id="AFCD6C7B-E778-889C-3E4C-4FE373B1DF35">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>234A01A9-668B-2604-7529-3874B2096B64</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8512936-52AB-52F4-B42B-02B9F676D016" referredColumn="9F3C8A6F-B646-A1A7-0D1A-5D9B157F88CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EE2881C-167C-4C95-4DE3-C2994073A21C" name="MENU_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>1D2885B1-1B17-2E52-BB0E-4FEFA20C9BB9</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E65071B-3CE8-2771-65D5-0D29D234D530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4188D251-F0A0-C61D-1B5A-41A385482EC0" name="MENU_CATEGORY_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>4396C861-0BAB-EAB0-AB59-0F31C2FEE164</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFCD6C7B-E778-889C-3E4C-4FE373B1DF35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

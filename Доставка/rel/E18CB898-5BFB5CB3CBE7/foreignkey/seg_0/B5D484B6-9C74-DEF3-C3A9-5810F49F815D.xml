@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5D484B6-9C74-DEF3-C3A9-5810F49F815D" containerWithKeyObject="37357374-7438-963D-0248-2C43D1FFB3A0" localFKIndex="0E4CD8FB-5ABE-6642-23DC-BB74BA1392AC" name="ORDERS_PAYMENT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>BFA038F9-CEDB-871F-CF73-660E29C1A65B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<referredTableLongName>PAYMENT</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>21D39BCF-A4B5-7A7D-6D3F-870FB86C2A8A</referredTableID>
+<keyObject>D41F5A29-F335-8006-458A-F64E241DFE8A</keyObject>
+<referredKeyID>D41F5A29-F335-8006-458A-F64E241DFE8A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>payment_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

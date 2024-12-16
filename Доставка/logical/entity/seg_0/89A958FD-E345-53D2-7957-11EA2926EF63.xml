@@ -4,9 +4,6 @@
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>C7DE9C84-FB6B-F6FB-143C-C8E5460B222C</importedID>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -22,9 +19,6 @@
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>924C5E3B-DECC-67CD-2A45-9737A2839672</importedID>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -36,9 +30,6 @@
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>40B8457E-CFED-960D-18AD-FBA48F3B6860</importedID>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -53,9 +44,6 @@
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>57EDEC84-7209-58D8-A81A-C4AB5DA8C55B</importedID>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>355FDD2F-83CC-DECC-C7F1-DEC3CFFBBF2F</attributeRef>

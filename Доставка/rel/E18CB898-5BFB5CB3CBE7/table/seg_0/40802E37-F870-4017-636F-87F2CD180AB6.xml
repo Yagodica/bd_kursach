@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40802E37-F870-4017-636F-87F2CD180AB6" name="EMPLOYEE">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>7C232220-349D-9B36-FE74-1349031E155E</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="5427282A-4D23-04A6-48A6-C861FC78A8FF">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>867CE893-A926-1B60-BEA0-6F249E77923C</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="3C3B1581-D3D8-1401-0147-12E3DBC455A4">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>9617E140-32C8-85B6-8585-D82FED3BF564</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="E7E53632-8A3B-96F5-1668-599BD4E7ED82">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>122BB851-73EC-0943-A2AA-12C95072CCE3</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="07C189D6-0C9C-332E-6C17-3FA94F6A36F2">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>0D8C32CD-2CFB-A0A2-9789-58CD816AC080</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="879AB0CD-12D5-0695-4BED-A6DA10A79082">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>AA9FF329-3F7E-C5A7-7908-56C105719192</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role" id="1E1844A4-962B-0BDE-C0C1-FEFB0B9BBFC1">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>1541632A-D863-3C25-E7E6-AA1A02FCEC80</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEPHONE_phone_id" id="EEFBDA7D-B76C-FE7E-F133-B97A089ADA27">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>1927E8D3-F4C6-A333-613D-8E5BB01B7AE5</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0CA4C02-3F41-BF12-7167-C1B3E2FBD016" referredColumn="FB57D875-D2EE-E1DE-8293-66F01660ED91"/>
+</associations>
+</Column>
+<Column name="RESTAURANT_restaurant_id" id="BB9A1D31-545F-00D1-466A-BFE345D04A8E">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>35287D0F-87AC-22A0-1B99-6F8E7502778B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="377B39E1-4128-15CE-13F3-FC51C2133164" referredColumn="A4D4700F-D023-A3A7-52F5-4DCB38799F7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60B738C9-1313-823F-0F70-1F4DD84B3CCC" name="EMPLOYEE_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>209BB1E7-616F-D1C3-A3B0-D8AB7E6E5663</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5427282A-4D23-04A6-48A6-C861FC78A8FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A677D256-DF56-BB3E-0CB0-5168A1C2A089" name="EMPLOYEE__IDX">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4D6606D4-9719-70A4-F603-9B59DF7C8239</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EEFBDA7D-B76C-FE7E-F133-B97A089ADA27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="269BDAF1-94F1-894E-C593-750DA2A621B9" name="EMPLOYEE_TELEPHONE_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>4D6606D4-9719-70A4-F603-9B59DF7C8239</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEFBDA7D-B76C-FE7E-F133-B97A089ADA27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DF49E26-359D-C9F5-D9A1-4A008EDBD1FB" name="EMPLOYEE_RESTAURANT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>9EFEAFDE-0B5B-C457-DE5E-2C87FA90B51E</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB9A1D31-545F-00D1-466A-BFE345D04A8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

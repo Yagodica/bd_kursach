@@ -4,7 +4,7 @@
 <createdTime>2024-12-14 20:06:32 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2024-12-14 20:06:58 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <createdTime>2024-12-14 20:06:58 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,7 +48,7 @@
 <createdTime>2024-12-14 20:10:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,6 +58,20 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <preferredAbbreviation>speciality_code</preferredAbbreviation>
 </Attribute>
+<Attribute name="id диплома" id="00867847-38B8-E95E-F80D-4D19B02F1A42">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:20 UTC</createdTime>
+<generatorID>B36C5F82-9B05-BBC0-5B96-AF85946B7059</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
+</engineerTo>
+<referedAttribute>B311FEBC-9B1B-57F1-1D1D-B7E838814C06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="770B7107-D631-E8EB-0DDD-29D8A43045A7" name="СПЕЦИАЛЬНОСТЬ PK">
@@ -65,7 +79,7 @@
 <createdTime>2024-12-14 20:08:42 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

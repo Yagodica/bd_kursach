@@ -3,9 +3,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 11:49:14 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,9 +17,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 11:56:11 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -33,9 +27,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 12:45:21 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -46,9 +37,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 13:19:34 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -60,9 +48,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 18:53:51 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
@@ -77,9 +62,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 13:20:58 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>4CFAEDF7-9229-0977-5C13-27956EEB6104</attributeRef>

@@ -4,7 +4,7 @@
 <createdTime>2024-12-14 19:37:43 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2024-12-14 19:46:18 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <generatorID>8015DCBB-D0EF-B138-E98D-E28DF97F5B44</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
 </engineerTo>
 <referedAttribute>CB02E6B3-A8CC-BA95-78D4-1D8A9642C028</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,7 +48,7 @@
 <createdTime>2024-12-14 19:54:10 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -65,7 +65,7 @@
 <createdTime>2024-12-14 19:41:18 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

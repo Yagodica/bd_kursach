@@ -4,7 +4,7 @@
 <createdTime>2024-12-14 20:26:47 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2024-12-14 20:28:21 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <createdTime>2024-12-14 20:28:58 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,6 +43,20 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <preferredAbbreviation>name</preferredAbbreviation>
 </Attribute>
+<Attribute name="id диплома" id="E5073E21-6508-0812-BDDC-319D9FB11157">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:20 UTC</createdTime>
+<generatorID>DBE2B2F4-9140-1765-E71D-C6DD5016AD68</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
+</engineerTo>
+<referedAttribute>B311FEBC-9B1B-57F1-1D1D-B7E838814C06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B30E4AD5-2C80-D0B5-E779-FDA93E6157B1" name="УЧЕБНОЕ ЗАВЕДЕНИЕ PK">
@@ -50,7 +64,7 @@
 <createdTime>2024-12-14 20:29:04 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

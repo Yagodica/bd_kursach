@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="216D16CC-043F-B3A4-474E-89AB50908675" name="BOOKING">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>10D80850-8242-5ABE-0BFB-78A19225FD9C</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="booking_id" id="0942C296-ED5A-47A0-A1C9-45FDF0448665">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>B8DA1C2E-C2D4-CEDD-1AEB-15B565A5C279</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="booking_date" id="87159253-DF89-3B81-A506-57A2A243DF5C">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>0E62BF83-D78C-A393-3C11-509117934199</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_guests" id="5A7A4F3C-0149-43E4-DE82-C1F1B60D082C">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>47F23248-B8B7-31E7-F307-34C4806E8411</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENT_client_id" id="FC7A63FA-9986-D882-8F20-4341FA0D8E03">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>6C539085-1036-D094-BCA9-C1595A7A54D9</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A78552C-C9AE-3F64-625A-36ADA8814760" referredColumn="1858D364-9278-2611-C8C7-3F83DBC9F486"/>
+</associations>
+</Column>
+<Column name="TABLES_table_id" id="A1ADE2C7-37BF-338C-0E89-41A3715AC8A6">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>960D2307-E38F-AE77-E6B1-2E953E375FF8</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B2A9939-D917-05A9-001E-D3DA8D46E71D" referredColumn="CB77EF67-0999-8150-D1BD-40E667B85461"/>
+</associations>
+</Column>
+<Column name="BANQUET_HALL_id" id="7C803206-5B35-AF98-9819-9FE04B28A220">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>EAF485A0-A634-F1AF-8E03-C3AF64D5CCBD</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08C26840-DC82-8920-2F1D-7BD82487FA64" referredColumn="F410FCBE-DBBA-15AA-CC79-1352CE16D831"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47176FBB-2A91-858A-AE7F-4426160AE0C3" name="BOOKING_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>CE3CE9B7-A67E-31AD-14EA-08F835AE8540</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0942C296-ED5A-47A0-A1C9-45FDF0448665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="823076EB-9FEC-3AE7-D956-7F0829C875AB" name="BOOKING_CLIENT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>D3DE31FC-DB85-B70F-C3FF-DBE1B9CA7665</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC7A63FA-9986-D882-8F20-4341FA0D8E03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4B7D5CB-991E-EEEF-02B4-DE47507CFE6F" name="BOOKING_TABLES_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>BAA9BC53-A030-62DC-F7B6-653677885862</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1ADE2C7-37BF-338C-0E89-41A3715AC8A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EC6F4AF-48F4-0716-CFBA-3B89D9C23FA9" name="BOOKING_BANQUET_HALL_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>75079808-D504-460D-A0A1-DE6645D9FCBA</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C803206-5B35-AF98-9819-9FE04B28A220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

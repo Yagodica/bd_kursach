@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6592B9B-3E85-1F30-33DE-D4AE8FDB70D4" containerWithKeyObject="71D1E8A2-630B-F4C7-615B-894EB5AF9B8C" localFKIndex="686CE42E-F4E1-A4E0-F760-2F1BC0102174" name="EVENT_BANQUET_HALL_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>DA940765-C661-3F0D-7E28-8895C2301382</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<referredTableLongName>BANQUET_HALL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>09D317E0-8CA8-794F-806D-3428A5A6E252</referredTableID>
+<keyObject>718CA4F5-4281-FBEF-92A2-AD0667B747C5</keyObject>
+<referredKeyID>718CA4F5-4281-FBEF-92A2-AD0667B747C5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

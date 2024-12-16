@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00437E41-CC85-2E10-AABE-57682DF04976" name="RESTAURANT">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>5BB90B62-FADD-DDD7-BB3F-50D55FE24602</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="restaurant_id" id="A4D4700F-D023-A3A7-52F5-4DCB38799F7C">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>9CB26345-0545-6F95-423F-7EE9CC2749C1</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="restaurant_name" id="AB8F4DB5-9A6C-E503-4AFB-CF06AE2BFCF1">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>02936139-811E-31CE-1312-E9FACBACAC27</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOUSE_id_house" id="431532A5-DAAA-2B23-1763-DB17185CA6FB">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>8925BECF-9461-2440-3A7A-3AE6E5266D61</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40BABA46-E445-A1CD-9460-575E776BF674" referredColumn="D2ED7FDF-058D-9D43-09AB-3124304A63D8"/>
+</associations>
+</Column>
+<Column name="TELEPHONE_phone_id" id="BF04F086-B6AB-8544-A6F0-428AFCA294A5">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>DA133EE9-6364-A59B-7A8F-205E6CB17CB6</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="157E0040-2835-54CB-2E24-9997C76ED684" referredColumn="FB57D875-D2EE-E1DE-8293-66F01660ED91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81740CA8-D0FF-4DA7-F3E9-ED11877F4C77" name="RESTAURANT_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>A53C969C-3CEE-8DDC-0A35-E868FD3491FF</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4D4700F-D023-A3A7-52F5-4DCB38799F7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="194BD093-8206-D0D8-FBB0-57F0FE8A124B" name="RESTAURANT__IDX">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>335BEE66-99A4-27F1-24EB-464ED8E21CF9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="431532A5-DAAA-2B23-1763-DB17185CA6FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C23AAC90-9DA3-5DBF-17D0-1E165D9E80CE" name="RESTAURANT__IDXv1">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4E06D0F8-BADF-9113-BF64-96A7A8223F5F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BF04F086-B6AB-8544-A6F0-428AFCA294A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47700921-EF10-86EC-7D94-8A9362DDB428" name="RESTAURANT_HOUSE_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>335BEE66-99A4-27F1-24EB-464ED8E21CF9</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="431532A5-DAAA-2B23-1763-DB17185CA6FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EAABAFB-A9BF-CF6C-5848-8BFCB1AD1C23" name="RESTAURANT_TELEPHONE_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 09:54:24 UTC</createdTime>
+<generatorID>4E06D0F8-BADF-9113-BF64-96A7A8223F5F</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF04F086-B6AB-8544-A6F0-428AFCA294A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

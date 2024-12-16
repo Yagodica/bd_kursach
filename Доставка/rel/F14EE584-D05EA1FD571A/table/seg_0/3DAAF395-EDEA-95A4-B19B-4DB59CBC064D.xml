@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DAAF395-EDEA-95A4-B19B-4DB59CBC064D" name="RECIPE">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>0317BA41-76A9-3E75-244B-C2EC5F7A662F</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="recipe_id" id="3D4AEEEF-4632-78E6-1E29-CFF52E90CA70">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>F5469B2D-BA2C-CACD-1C7C-80A2C717DA88</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENU_position_id" id="804D6BD2-7880-C6A2-9690-BFE143136D3F">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>7E4127E2-9E8B-A314-9DCC-1F20835B9352</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99D97DB0-9C36-4C28-EB49-71F50419D593" referredColumn="C54A535B-0646-DB07-25C9-FC6060E279DC"/>
+</associations>
+</Column>
+<Column name="INGREDIENT_ingredient_id" id="63235924-CA21-D4D1-FC8D-CBC5BB93A004">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>15355E66-EA96-018E-6386-64E3A1D33916</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DE77FC9-446C-BD82-AF8C-EF0C16182638" referredColumn="F2E95825-705D-ECD1-6FE6-E53196F1C55F"/>
+</associations>
+</Column>
+<Column name="INSTRUCTIONS_instruction_id" id="910EF4A1-74DC-0893-CB33-0DD64EFEBD82">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>881113AB-9A7A-5777-6859-F1A3AAB12D50</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="579CF3E5-BE47-83FE-E8DC-83F8099745CA" referredColumn="4B7D04E3-B4BB-1786-7926-C69C8274C180"/>
+</associations>
+</Column>
+<Column name="quantity" id="08EB0AB6-6B0D-3318-49D5-A518639D5394">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>BC318B8E-2F71-6EBD-8F58-E9EC686AE07F</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F715EEA5-78C8-7CCC-1623-C861EE00EF40" name="RECIPE_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>666F9A5A-91AB-4984-010B-A31EF075AB9F</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D4AEEEF-4632-78E6-1E29-CFF52E90CA70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F078CA0-9A32-7201-A38C-A5095086ED62" name="RECIPE__IDX">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BE5DCC65-9688-48C2-3B05-ADFAC096C793</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="804D6BD2-7880-C6A2-9690-BFE143136D3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6304AB96-D8CC-985D-54A9-EB87E2A67B4F" name="RECIPE__IDXv1">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BE1E4A7F-9E4C-29F2-E17D-865DA1E31BFD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="910EF4A1-74DC-0893-CB33-0DD64EFEBD82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="823BFBAA-2F13-92F1-4D42-60A2439652ED" name="RECIPE_MENU_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>BE5DCC65-9688-48C2-3B05-ADFAC096C793</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="804D6BD2-7880-C6A2-9690-BFE143136D3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6E8C5D7-7BDE-5846-BDEE-F1605195C488" name="RECIPE_INGREDIENT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>C2C0DB89-93D5-D763-9420-55AC2DAFC025</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63235924-CA21-D4D1-FC8D-CBC5BB93A004"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13A55C84-7F5F-4D0E-59B5-3674BBEBA4AE" name="RECIPE_INSTRUCTIONS_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 10:25:42 UTC</createdTime>
+<generatorID>BE1E4A7F-9E4C-29F2-E17D-865DA1E31BFD</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="910EF4A1-74DC-0893-CB33-0DD64EFEBD82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -4,7 +4,7 @@
 <createdTime>2024-12-16 07:23:20 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
 </engineerTo>
 <sourcePk>F99C3476-B65F-408B-9941-2DC3B278DACD</sourcePk>
 <identifying>false</identifying>
@@ -15,5 +15,4 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>0317BA41-76A9-3E75-244B-C2EC5F7A662F</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
 </Relation>

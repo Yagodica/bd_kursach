@@ -3,9 +3,6 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-14 09:47:37 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
-<engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
-</engineerTo>
 <sourcePk>A53F9480-552D-658A-E5A5-ABAC8A302D5B</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
@@ -15,5 +12,4 @@
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>7C232220-349D-9B36-FE74-1349031E155E</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
 </Relation>
