@@ -4,10 +4,13 @@
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>5D105096-11E0-83D7-A5B9-4F19F8FA54A6</importedID>
+<engineerTo>
+<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
+</engineerTo>
 <sourcePk>D2399A80-3F01-9051-3F6A-EA6471565784</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>C4BD6BAA-7A73-191E-4674-A31A3ED22701</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

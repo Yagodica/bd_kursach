@@ -57,6 +57,7 @@
 <createdTime>2024-12-16 10:25:42 UTC</createdTime>
 <generatorID>7C5ADE3F-59AE-070A-3A4F-CE56F9A86DB3</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

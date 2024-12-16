@@ -45,6 +45,22 @@
 <colAssociation fkAssociation="9A3C767A-2995-1494-D6D5-C06A3D3075A7" referredColumn="870BF258-D899-CE23-9769-84E9B71EB2B9"/>
 </associations>
 </Column>
+<Column name="ADDRESS_address_id" id="C56655C8-D069-1C92-E635-C0E017EEF819">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 15:49:17 UTC</createdTime>
+<generatorID>3082A6A7-0E7C-B0E6-64CF-B585C2081886</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C771A11F-ED35-287C-FA4A-AEE137FC96C8" referredColumn="98BFD8B6-795F-7D45-2EC0-C0A0FFB84FF4"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="68B58AFE-00B0-175B-B43D-6B450CC79F7F" name="HOUSE_PK">
@@ -59,6 +75,17 @@
 <colUsage columnID="1DF82FBE-AD9B-63FD-CBEB-F07C6F512B9E"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="C401865A-C941-7F48-DA20-965D674C7C02" name="HOUSE__IDX">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 15:49:17 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3FD46128-97AC-6994-A0FC-1CE0BDEFC441</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C56655C8-D069-1C92-E635-C0E017EEF819"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="5BA1207D-9670-97C5-444B-047741C8D9D0" name="HOUSE_STREET_FK">
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-16 10:25:42 UTC</createdTime>
@@ -68,6 +95,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="65008843-AC80-0EE8-6D5B-95E7901AABBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CC79178-F4D4-B749-0AB5-C7E53EA3D025" name="HOUSE_ADDRESS_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 15:49:17 UTC</createdTime>
+<generatorID>3FD46128-97AC-6994-A0FC-1CE0BDEFC441</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C56655C8-D069-1C92-E635-C0E017EEF819"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

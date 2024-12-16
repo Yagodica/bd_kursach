@@ -45,6 +45,22 @@
 <colAssociation fkAssociation="79D8BB6A-EA3B-ED75-CC4B-21AE29400B1C" referredColumn="1DF82FBE-AD9B-63FD-CBEB-F07C6F512B9E"/>
 </associations>
 </Column>
+<Column name="ADDRESS_address_id" id="A62ADE42-A1D9-CB96-2F12-1738F8B74851">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 15:49:17 UTC</createdTime>
+<generatorID>A7A57921-049E-0C98-9A50-E43CA71C156A</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB34DCA3-3F23-F812-7051-AFF35B2D82FB" referredColumn="98BFD8B6-795F-7D45-2EC0-C0A0FFB84FF4"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3A3B8B28-286B-CB8B-7F4D-D395C8A06F1B" name="APARTMENT_PK">
@@ -59,6 +75,17 @@
 <colUsage columnID="D009CE22-DB50-87E3-B06F-89CC2BECD02B"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="9B0235D2-4409-2E88-85D6-9CE18BF23203" name="APARTMENT__IDX">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 15:49:17 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FD1B78A0-26F3-694F-0D40-5CC81422869B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A62ADE42-A1D9-CB96-2F12-1738F8B74851"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="565F70F8-424C-D44C-5643-7D7771C251F1" name="APARTMENT_HOUSE_FK">
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-16 10:25:42 UTC</createdTime>
@@ -68,6 +95,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="582B4F4F-4DFE-98FE-690C-F5A732B9D429"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F3367DB-8A4F-31E3-211D-59374A3CC71E" name="APARTMENT_ADDRESS_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 15:49:17 UTC</createdTime>
+<generatorID>FD1B78A0-26F3-694F-0D40-5CC81422869B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A62ADE42-A1D9-CB96-2F12-1738F8B74851"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

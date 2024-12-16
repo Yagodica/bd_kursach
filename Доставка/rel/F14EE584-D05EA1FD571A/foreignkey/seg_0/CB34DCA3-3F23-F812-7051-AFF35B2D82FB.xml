@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E5757B78-BA12-1583-CC2D-CDB9774B6E36" containerWithKeyObject="35741204-2068-F8C1-C2C3-DB0E21049ED4" localFKIndex="CD7046F2-5C58-46D7-BD01-A97B2E4F17BF" name="ORDERS_ADDRESS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB34DCA3-3F23-F812-7051-AFF35B2D82FB" containerWithKeyObject="7132F28C-04D8-A440-9E82-EEABBFF7BB18" localFKIndex="7F3367DB-8A4F-31E3-211D-59374A3CC71E" name="APARTMENT_ADDRESS_FK">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-16 10:25:42 UTC</createdTime>
-<generatorID>D4037293-2D4C-1F85-B643-35484C16A21F</generatorID>
+<createdTime>2024-12-16 15:49:17 UTC</createdTime>
+<generatorID>FD1B78A0-26F3-694F-0D40-5CC81422869B</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <referredTableLongName>ADDRESS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
