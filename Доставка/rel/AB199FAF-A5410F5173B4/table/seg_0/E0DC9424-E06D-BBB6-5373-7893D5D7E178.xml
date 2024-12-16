@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0DC9424-E06D-BBB6-5373-7893D5D7E178" name="DIPLOMA">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>1FB05452-77C8-FE07-C7D8-C8BDCC68F8A5</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="diploma_id" id="96EC839F-7682-34ED-BF82-36213E275971">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>B311FEBC-9B1B-57F1-1D1D-B7E838814C06</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diploma_series" id="9ADAD15C-0EDE-9508-2A08-26B2DE96BE1D">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>D13B45D6-7FA8-08F4-6B23-2B2507AB236B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diploma_num" id="69C32896-F341-C84B-4B39-45847CC231A0">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>DE6E20C1-0526-4E3B-3E7B-D25F7C5619E9</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_employee_id" id="F6BE2A9E-77D8-7F13-DA50-7948468C15C0">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>C7C648F8-E909-8744-B6F3-28D5D83409C6</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC48E183-A169-AD02-3209-619699E7D3FA" referredColumn="E4C66C67-72D0-9820-EF07-7408325756CC"/>
+</associations>
+</Column>
+<Column name="DIPLOMA_ID1" id="D770BEFF-0E51-6BFB-41B8-A1B917C440F7">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF629945-03EE-71BD-5DF0-31EFC8F4C2D2" name="DIPLOMA_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D770BEFF-0E51-6BFB-41B8-A1B917C440F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D71CC6B9-887A-8EEF-B8F3-4674B3DA161E" name="DIPLOMA_EMPLOYEE_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>4322FB52-7B2B-1FFE-F6F0-5624442BC7A5</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6BE2A9E-77D8-7F13-DA50-7948468C15C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

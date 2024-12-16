@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D1F7995-F7A4-BAF7-835E-05742A3AE403" name="QUALIFICATION">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>7FEAB323-836A-3710-DE22-C070C0DCFD8B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="qualification_id" id="7C223036-5185-8868-DA56-9908FDF9610C">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>6148450F-A7AB-CC1E-8E02-D0A7C7CC071C</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qualification_name" id="B8FE765B-2DB8-95F9-C9B0-57805E8E80A8">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>AEB57607-8E16-C4AB-E422-4E67752B52E7</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIPLOMA_DIPLOMA_ID1" id="7A358774-ECF4-482A-94DC-958B0AB5308A">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C3C5997-9256-394C-480C-886AD60B0D8E" referredColumn="D770BEFF-0E51-6BFB-41B8-A1B917C440F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC9B0152-384F-CE10-1D39-DFE4D9E79055" name="QUALIFICATION_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>5E19875D-DC7E-A67D-C557-3EC2091CC196</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C223036-5185-8868-DA56-9908FDF9610C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAC969CA-E893-65B5-C1AA-C701A057B8A4" name="QUALIFICATION_DIPLOMA_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>25C88182-F988-B12C-857C-5FA0807A4696</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A358774-ECF4-482A-94DC-958B0AB5308A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEA35709-47E0-8BC0-93E7-341F694CDD1B" name="TABLES">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>E0A4C42B-A3BE-DA86-95D9-F3BB5E99C39B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<ordsAlias>table</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="table_id" id="6CC19536-65F0-37DC-BB06-227787FFB4BA">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>0DD8C3ED-691A-AE7F-3517-32E302BC08EE</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESTAURANT_restaurant_id" id="096EE4B9-82E7-E817-75E1-9072E6A29459">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>D7652F2C-0AC2-25F9-7A22-4DC8C2BA794E</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB86E918-3ADA-086E-ADEA-8037E0CEDFB3" referredColumn="981AA634-78C5-ED95-5BD0-9D978C6E17F9"/>
+</associations>
+</Column>
+<Column name="table_num" id="07C2EBF8-5E3A-10CB-95AC-58FADFC54AB5">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>700AD371-C7A4-4C53-262C-ED757EA01195</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacity" id="63621718-26E7-FA43-21C0-10E61A3158BD">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>DACCB88D-368C-3A32-2F0A-1F6CA9ED69E8</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="094CC5AB-4C7D-7E52-51CB-47947C9DC50C" name="TABLE_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>F24918F8-0BD2-46E5-2EE1-15FDE7ADE0C6</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CC19536-65F0-37DC-BB06-227787FFB4BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="459E63A9-94C6-0CB5-47AA-4EFDBCA11E5D" name="TABLE_RESTAURANT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>CDDD9DF1-8754-CC00-142B-A6A8C4517DBD</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="096EE4B9-82E7-E817-75E1-9072E6A29459"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

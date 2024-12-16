@@ -4,7 +4,7 @@
 <createdTime>2024-12-14 10:29:48 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,14 +14,14 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>TABLE</preferredAbbreviation>
+<preferredAbbreviation>TABLES</preferredAbbreviation>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id столика" id="0DD8C3ED-691A-AE7F-3517-32E302BC08EE">
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-14 10:30:02 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <generatorID>CDDD9DF1-8754-CC00-142B-A6A8C4517DBD</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
 </engineerTo>
 <referedAttribute>9CB26345-0545-6F95-423F-7EE9CC2749C1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,7 +48,7 @@
 <createdTime>2024-12-14 10:30:03 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,7 +61,7 @@
 <createdTime>2024-12-15 10:32:12 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -76,7 +76,7 @@
 <createdTime>2024-12-14 10:31:30 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="AB199FAF-8852-2A0F-90A4-A5410F5173B4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

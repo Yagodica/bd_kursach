@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B696469D-FB89-55ED-B8A6-6E9624F2B95C" containerWithKeyObject="4CA84A5E-A5A5-8D30-B39A-B1E6B4093D8C" localFKIndex="D3D4A7B3-7658-AED8-0CE8-DCD4C6F7FF90" name="ADDRESS_APARTMENT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 08:13:13 UTC</createdTime>
+<generatorID>FD1B78A0-26F3-694F-0D40-5CC81422869B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<referredTableLongName>APARTMENT</referredTableLongName>
+<arc>6B4B2EBB-11A0-B930-9403-494F74C2F739</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1AD5E691-056A-E442-2A43-D898C3BC656B</referredTableID>
+<keyObject>70DEEFDA-29A2-4800-0EBC-6E925E42AB4F</keyObject>
+<referredKeyID>70DEEFDA-29A2-4800-0EBC-6E925E42AB4F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>apartment_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
