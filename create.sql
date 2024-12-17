@@ -1,5 +1,5 @@
-create database restaurant;
-use restaurant;
+create database Restaurant;
+use Restaurant;
 
 CREATE TABLE address (
     address_id             INTEGER NOT NULL,
@@ -30,10 +30,16 @@ CREATE UNIQUE INDEX address__idxv1 ON
 ALTER TABLE address ADD CONSTRAINT address_pk PRIMARY KEY ( address_id );
 
 CREATE TABLE apartment (
-    apartment_id   INTEGER NOT NULL,
-    apartment_num  INTEGER NOT NULL,
-    house_id_house INTEGER NOT NULL
+    apartment_id       INTEGER NOT NULL,
+    apartment_num      INTEGER NOT NULL,
+    house_id_house     INTEGER NOT NULL,
+    address_address_id INTEGER
 );
+
+CREATE UNIQUE INDEX apartment__idx ON
+    apartment (
+        address_address_id
+    ASC );
 
 ALTER TABLE apartment ADD CONSTRAINT apartment_pk PRIMARY KEY ( apartment_id );
 
@@ -50,8 +56,8 @@ CREATE TABLE booking (
     booking_date     DATETIME NOT NULL,
     num_guests       INTEGER NOT NULL,
     client_client_id INTEGER NOT NULL,
-    tables_table_id  INTEGER NOT NULL,
-    banquet_hall_id  INTEGER NOT NULL
+    tables_table_id  INTEGER,
+    event_event_id   INTEGER
 );
 
 ALTER TABLE booking ADD CONSTRAINT booking_pk PRIMARY KEY ( booking_id );
@@ -61,7 +67,7 @@ CREATE TABLE cart (
     orders_order_id  INTEGER NOT NULL,
     menu_position_id INTEGER NOT NULL,
     quantity         INTEGER NOT NULL,
-    price            decimal(9, 2) NOT NULL
+    price            DECIMAL(9, 2) NOT NULL
 );
 
 ALTER TABLE cart ADD CONSTRAINT cart_pk PRIMARY KEY ( cart_id );
@@ -158,10 +164,16 @@ CREATE TABLE event (
 ALTER TABLE event ADD CONSTRAINT event_pk PRIMARY KEY ( event_id );
 
 CREATE TABLE house (
-    id_house         INTEGER NOT NULL,
-    house_num        INTEGER NOT NULL,
-    street_id_street INTEGER NOT NULL
+    id_house           INTEGER NOT NULL,
+    house_num          INTEGER NOT NULL,
+    street_id_street   INTEGER NOT NULL,
+    address_address_id INTEGER
 );
+
+CREATE UNIQUE INDEX house__idx ON
+    house (
+        address_address_id
+    ASC );
 
 ALTER TABLE house ADD CONSTRAINT house_pk PRIMARY KEY ( id_house );
 
@@ -175,7 +187,7 @@ ALTER TABLE ingredient ADD CONSTRAINT ingredient_pk PRIMARY KEY ( ingredient_id 
 
 CREATE TABLE instructions (
     instruction_id INTEGER NOT NULL,
-    instructions   VARCHAR(255) NOT NULL
+    instructions   VARCHAR(1024) NOT NULL
 );
 
 ALTER TABLE instructions ADD CONSTRAINT instructions_pk PRIMARY KEY ( instruction_id );
@@ -184,7 +196,7 @@ CREATE TABLE menu (
     position_id          INTEGER NOT NULL,
     position_name        VARCHAR(30) NOT NULL,
     position_description VARCHAR(255) NOT NULL,
-    position_price       decimal(9, 2) NOT NULL,
+    position_price       DECIMAL(9, 2) NOT NULL,
     category_category_id INTEGER NOT NULL
 );
 
@@ -217,20 +229,20 @@ ALTER TABLE orders ADD CONSTRAINT orders_pk PRIMARY KEY ( order_id );
 
 CREATE TABLE payment (
     payment_id     INTEGER NOT NULL,
-    payment_date         DATETIME NOT NULL,
+    payment_date   DATETIME NOT NULL,
     payment_method VARCHAR(30) NOT NULL,
-    amount         decimal(9, 2) NOT NULL
+    amount         DECIMAL(9, 2) NOT NULL
 );
 
 ALTER TABLE payment ADD CONSTRAINT payment_pk PRIMARY KEY ( payment_id );
 
 CREATE TABLE purchasing_ingredients (
-    purchase_id              INTEGER NOT NULL,
-    ingredient_ingredient_id INTEGER NOT NULL,
-    supplier_supplier_id     INTEGER NOT NULL,
-    quantity                 decimal(9, 2) NOT NULL,
-    price                    decimal(9, 2) NOT NULL,
-    purchasing_ingredients_date                   DATETIME NOT NULL
+    purchase_id                 INTEGER NOT NULL,
+    ingredient_ingredient_id    INTEGER NOT NULL,
+    supplier_supplier_id        INTEGER NOT NULL,
+    quantity                    DECIMAL(9, 2) NOT NULL,
+    price                       DECIMAL(9, 2) NOT NULL,
+    purchasing_ingredients_date DATETIME NOT NULL
 );
 
 ALTER TABLE purchasing_ingredients ADD CONSTRAINT purchasing_ingredients_pk PRIMARY KEY ( purchase_id );
@@ -248,18 +260,8 @@ CREATE TABLE recipe (
     menu_position_id            INTEGER NOT NULL,
     ingredient_ingredient_id    INTEGER NOT NULL,
     instructions_instruction_id INTEGER NOT NULL,
-    quantity                    decimal(9, 2) NOT NULL
+    quantity                    DECIMAL(9, 2) NOT NULL
 );
-
-CREATE UNIQUE INDEX recipe__idx ON
-    recipe (
-        menu_position_id
-    ASC );
-
-CREATE UNIQUE INDEX recipe__idxv1 ON
-    recipe (
-        instructions_instruction_id
-    ASC );
 
 ALTER TABLE recipe ADD CONSTRAINT recipe_pk PRIMARY KEY ( recipe_id );
 
@@ -335,7 +337,7 @@ ALTER TABLE telephone ADD CONSTRAINT telephone_pk PRIMARY KEY ( phone_id );
 CREATE TABLE warehouse (
     id                       INTEGER NOT NULL,
     ingredient_ingredient_id INTEGER NOT NULL,
-    quantity                 decimal(9, 2) NOT NULL
+    quantity                 DECIMAL(9, 2) NOT NULL
 );
 
 CREATE UNIQUE INDEX warehouse__idx ON
@@ -360,6 +362,10 @@ ALTER TABLE address
         REFERENCES house ( id_house );
 
 ALTER TABLE apartment
+    ADD CONSTRAINT apartment_address_fk FOREIGN KEY ( address_address_id )
+        REFERENCES address ( address_id );
+
+ALTER TABLE apartment
     ADD CONSTRAINT apartment_house_fk FOREIGN KEY ( house_id_house )
         REFERENCES house ( id_house );
 
@@ -370,14 +376,14 @@ ALTER TABLE banquet_hall
                 ON DELETE CASCADE;
 
 ALTER TABLE booking
-    ADD CONSTRAINT booking_banquet_hall_fk FOREIGN KEY ( banquet_hall_id )
-        REFERENCES banquet_hall ( id );
-
-ALTER TABLE booking
     ADD CONSTRAINT booking_client_fk
         FOREIGN KEY ( client_client_id )
             REFERENCES client ( client_id )
                 ON DELETE CASCADE;
+
+ALTER TABLE booking
+    ADD CONSTRAINT booking_event_fk FOREIGN KEY ( event_event_id )
+        REFERENCES event ( event_id );
 
 ALTER TABLE booking
     ADD CONSTRAINT booking_tables_fk FOREIGN KEY ( tables_table_id )
@@ -413,6 +419,7 @@ ALTER TABLE education_level
     ADD CONSTRAINT education_level_diploma_fk FOREIGN KEY ( diploma_diploma_id )
         REFERENCES diploma ( diploma_id );
 
+--  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE educational_institution
     ADD CONSTRAINT educational_institution_diploma_fk FOREIGN KEY ( diploma_diploma_id )
         REFERENCES diploma ( diploma_id );
@@ -428,6 +435,10 @@ ALTER TABLE employee
 ALTER TABLE event
     ADD CONSTRAINT event_banquet_hall_fk FOREIGN KEY ( banquet_hall_id )
         REFERENCES banquet_hall ( id );
+
+ALTER TABLE house
+    ADD CONSTRAINT house_address_fk FOREIGN KEY ( address_address_id )
+        REFERENCES address ( address_id );
 
 ALTER TABLE house
     ADD CONSTRAINT house_street_fk FOREIGN KEY ( street_id_street )
@@ -455,10 +466,12 @@ ALTER TABLE orders
             REFERENCES payment ( payment_id )
                 ON DELETE CASCADE;
 
+--  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE purchasing_ingredients
     ADD CONSTRAINT purchasing_ingredients_ingredient_fk FOREIGN KEY ( ingredient_ingredient_id )
         REFERENCES ingredient ( ingredient_id );
 
+--  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE purchasing_ingredients
     ADD CONSTRAINT purchasing_ingredients_supplier_fk FOREIGN KEY ( supplier_supplier_id )
         REFERENCES supplier ( supplier_id );
