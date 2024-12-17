@@ -45,22 +45,6 @@
 <colAssociation fkAssociation="18BF0E7A-FE38-11F8-3A07-F0FB8AED0933" referredColumn="627A4E96-8929-FE5D-9A4A-A4E299DECA1B"/>
 </associations>
 </Column>
-<Column name="ADDRESS_address_id" id="14A597B5-7A29-D089-0C5B-D0E2125EABEA">
-<createdBy>ivan</createdBy>
-<createdTime>2024-12-17 10:23:20 UTC</createdTime>
-<generatorID>3082A6A7-0E7C-B0E6-64CF-B585C2081886</generatorID>
-<ownerDesignName>Доставка</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="12AAB8D0-6A86-9D93-0E06-5D228F835677" referredColumn="BC5272F6-FA91-28CA-C46D-E09BBDC3F729"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0D959600-0408-9FE9-3157-67BFE85678D9" name="HOUSE_PK">
@@ -73,28 +57,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EDC3405A-825A-38F8-2499-5513A6A21EBF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="E17BEFEC-1647-0075-5E17-874DE6A429DF" name="HOUSE__IDX">
-<createdBy>ivan</createdBy>
-<createdTime>2024-12-17 10:23:20 UTC</createdTime>
-<ownerDesignName>Доставка</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>3FD46128-97AC-6994-A0FC-1CE0BDEFC441</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="14A597B5-7A29-D089-0C5B-D0E2125EABEA"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B3DF6524-409B-1A19-5C29-17CA548C2119" name="HOUSE_ADDRESS_FK">
-<createdBy>ivan</createdBy>
-<createdTime>2024-12-17 10:23:20 UTC</createdTime>
-<generatorID>3FD46128-97AC-6994-A0FC-1CE0BDEFC441</generatorID>
-<ownerDesignName>Доставка</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="14A597B5-7A29-D089-0C5B-D0E2125EABEA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="29A62C4C-5159-7EA7-8E0F-AA8636DD7BFD" name="HOUSE_STREET_FK">
