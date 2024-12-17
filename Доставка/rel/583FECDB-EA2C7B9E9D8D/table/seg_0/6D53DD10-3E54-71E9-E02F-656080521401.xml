@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D53DD10-3E54-71E9-E02F-656080521401" name="CLIENT">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>FEB14CD9-AE7F-AF7B-4299-95B07B998A15</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="client_id" id="7801B35D-9F5A-B422-3701-199D03835DF1">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>550B07C6-E365-6AD4-F045-8CC2B0A1E8A1</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_name" id="EF850704-9EC3-F04C-0FB8-7AD4E0B1C101">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>1CCD83FE-7BF2-0431-96ED-FB04BB879D4B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_surname" id="D230FA83-002C-CB08-817F-90D5B7230CDD">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>C98AFA54-5438-F90D-C7BB-6366EBB2ABF1</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_email" id="6B1C93E6-6C96-E3B4-2844-D01520D80F58">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>2E8BFF2B-42BC-EE80-9659-755F6E836764</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEPHONE_phone_id" id="E8DE7097-12BD-E484-1484-5C06F34EE703">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>92521CCF-FA21-099E-6520-E8C25086DBC7</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E001637-C69E-C832-D461-9FB796F02D1D" referredColumn="112A1876-6BBD-F61C-30F2-ABA6B69DEE11"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="706E8320-8DC8-B68D-FD73-14ABF1438D33" name="CLIENT_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>4BEC164E-7C8B-18E7-FF35-5FC930578900</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7801B35D-9F5A-B422-3701-199D03835DF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64AF6C99-4D58-F79D-0060-0D5AEE686A2D" name="CLIENT__IDX">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>14C06F10-EB86-6BBD-5D88-EA0AA6ACE68B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E8DE7097-12BD-E484-1484-5C06F34EE703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E4CBB0C-88B4-251D-8C52-91A38343EF2F" name="CLIENT_TELEPHONE_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>14C06F10-EB86-6BBD-5D88-EA0AA6ACE68B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8DE7097-12BD-E484-1484-5C06F34EE703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

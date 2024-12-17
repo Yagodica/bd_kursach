@@ -3,6 +3,9 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 14:01:28 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,6 +20,9 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 14:33:26 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -28,6 +34,9 @@
 <createdTime>2024-12-15 16:33:13 UTC</createdTime>
 <generatorID>2C635B20-ECEB-206A-EC31-AC37D6AD3150</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+</engineerTo>
 <referedAttribute>CB02E6B3-A8CC-BA95-78D4-1D8A9642C028</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,6 +48,9 @@
 <createdTime>2024-12-16 07:10:13 UTC</createdTime>
 <generatorID>08261B25-AFA7-BC9F-7885-7FC8F091CBB5</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+</engineerTo>
 <referedAttribute>D43B8CB3-2D23-DEEF-3EE5-E17CDBBEBFE3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,6 +61,9 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 14:45:22 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
@@ -61,6 +76,9 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-16 07:14:06 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
@@ -73,11 +91,14 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 14:37:38 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>date</preferredAbbreviation>
+<preferredAbbreviation>purchasing_ingredients_date</preferredAbbreviation>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -85,6 +106,9 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 14:47:56 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>3B46ABB7-240F-7933-FD0D-28849C63DF10</attributeRef>

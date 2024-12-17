@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2084FB8-B311-E18C-E08A-E4244106FB89" containerWithKeyObject="3E113962-6D3D-DAE1-7E1F-52364B2155F2" localFKIndex="195AC4DE-084C-9B90-0B26-49EE9794713C" name="BOOKING_EVENT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-17 10:23:20 UTC</createdTime>
+<generatorID>8CD71C99-A232-6473-D914-6FAEB5CB753E</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<referredTableLongName>EVENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA8F74D9-9C7F-23C7-64C6-632EF6B77D85</referredTableID>
+<keyObject>23B31F55-E527-2EF9-83E8-75A8EBF6EFB9</keyObject>
+<referredKeyID>23B31F55-E527-2EF9-83E8-75A8EBF6EFB9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>event_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

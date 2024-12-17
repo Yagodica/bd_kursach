@@ -8,7 +8,7 @@
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>0317BA41-76A9-3E75-244B-C2EC5F7A662F</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>49F1F89E-4886-00A2-8327-3353584BE528</targetEntity>

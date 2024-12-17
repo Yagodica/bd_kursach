@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AAF3264E-052D-3210-57D7-4E43215C582B" containerWithKeyObject="C00B5063-9815-05C5-7D84-ED126D66949A" localFKIndex="A039F21A-4653-DCF5-7E3D-3AE27224FF89" name="RECIPE_MENU_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>BE5DCC65-9688-48C2-3B05-ADFAC096C793</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<referredTableLongName>MENU</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>DBC40CCF-305C-A542-7BE7-C816A6EC6F4F</referredTableID>
+<keyObject>25DF0D1B-B8D2-D658-9B64-5F435DF69CC3</keyObject>
+<referredKeyID>25DF0D1B-B8D2-D658-9B64-5F435DF69CC3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>position_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05884097-240D-E3F2-EDDE-9794D0CEB619" name="WAREHOUSE">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>595357C7-8492-B401-93FA-13C3ECC700FF</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B0DAA965-612D-9491-A36C-8BDBF76BC3D6">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>A145DA18-4ED6-E5AF-E2DB-3948002F2552</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INGREDIENT_ingredient_id" id="82EA7595-A9F1-0ED8-CD82-900239E3E1B9">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>5466CFCE-5F9A-6DA2-3194-0A45C3D7A4F1</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E6FBB5A-5AC2-A4CA-1A1F-914417B3515A" referredColumn="42E42812-54DE-4EBF-001D-4D3E8CA751D6"/>
+</associations>
+</Column>
+<Column name="quantity" id="2DF5EEF2-3BD6-15F8-31E4-7BFC8E43EEA2">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>C5379873-58F3-4DC3-5D0A-0EC94F90E626</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA2EC0EF-0E76-D3D7-1D67-D1E4959F3A55" name="WAREHOUSE_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>B1BFEFDA-E2AF-8C92-A1BF-0CD40DDDCFA6</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0DAA965-612D-9491-A36C-8BDBF76BC3D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FE63D7B-B734-BA8D-8781-94BE6538D932" name="WAREHOUSE__IDX">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8015DCBB-D0EF-B138-E98D-E28DF97F5B44</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="82EA7595-A9F1-0ED8-CD82-900239E3E1B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5166884F-B5F4-7294-360B-3FBB49D30428" name="WAREHOUSE_INGREDIENT_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>8015DCBB-D0EF-B138-E98D-E28DF97F5B44</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82EA7595-A9F1-0ED8-CD82-900239E3E1B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

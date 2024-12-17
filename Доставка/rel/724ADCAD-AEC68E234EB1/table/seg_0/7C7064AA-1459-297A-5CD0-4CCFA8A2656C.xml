@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C7064AA-1459-297A-5CD0-4CCFA8A2656C" name="APARTMENT">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-17 10:23:20 UTC</createdTime>
+<generatorID>EE5D8F58-7385-0932-BD88-618943BFA5F4</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="apartment_id" id="CD280FEE-4342-737B-1991-0179870DFC6F">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-17 10:23:20 UTC</createdTime>
+<generatorID>241055D8-5782-DBA0-B7C1-4C8A4FCF661E</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apartment_num" id="63CDA4D8-FF3B-DCEE-025C-9FF39EB18416">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-17 10:23:20 UTC</createdTime>
+<generatorID>CEA0C91F-BF13-3D07-D929-0EA1362EC403</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOUSE_id_house" id="C558A8D8-974C-3E90-4DFF-34EA649F240B">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-17 10:23:20 UTC</createdTime>
+<generatorID>4A36E2D9-3334-B877-9092-671936C44912</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B17C6B48-9F62-431F-7EE5-B00D2B3F9C50" referredColumn="EDC3405A-825A-38F8-2499-5513A6A21EBF"/>
+</associations>
+</Column>
+<Column name="ADDRESS_address_id" id="CF69DE15-7879-7047-E23C-128286869839">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-17 10:23:20 UTC</createdTime>
+<generatorID>A7A57921-049E-0C98-9A50-E43CA71C156A</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C00587A8-15F4-6A72-7CF9-3774E6947368" referredColumn="BC5272F6-FA91-28CA-C46D-E09BBDC3F729"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E5D998B-C63B-C9BB-D167-A9B7F5FEE6B7" name="APARTMENT_PK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-17 10:23:20 UTC</createdTime>
+<generatorID>D49533C0-A0E2-9188-4135-23582010C98C</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD280FEE-4342-737B-1991-0179870DFC6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7033C4E6-FC8E-42C9-9D3B-F1FFE563947D" name="APARTMENT__IDX">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-17 10:23:20 UTC</createdTime>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FD1B78A0-26F3-694F-0D40-5CC81422869B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CF69DE15-7879-7047-E23C-128286869839"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="872D1D27-6E05-3FAE-7AE4-215668E524F2" name="APARTMENT_ADDRESS_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-17 10:23:20 UTC</createdTime>
+<generatorID>FD1B78A0-26F3-694F-0D40-5CC81422869B</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF69DE15-7879-7047-E23C-128286869839"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7232C9C4-FF9E-0F55-B5D3-E559576815A6" name="APARTMENT_HOUSE_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-17 10:23:20 UTC</createdTime>
+<generatorID>203C707E-3E5D-4F1E-2083-D32420433422</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C558A8D8-974C-3E90-4DFF-34EA649F240B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

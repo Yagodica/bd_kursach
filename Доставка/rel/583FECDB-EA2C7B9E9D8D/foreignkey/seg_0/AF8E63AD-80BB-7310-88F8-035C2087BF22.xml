@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF8E63AD-80BB-7310-88F8-035C2087BF22" containerWithKeyObject="C19A0A47-BB81-00DF-1427-D4DBC6609682" localFKIndex="7ED400FC-9B5F-E70D-7B03-4FCA6BF435FD" name="QUALIFICATION_DIPLOMA_FK">
+<createdBy>ivan</createdBy>
+<createdTime>2024-12-16 19:49:02 UTC</createdTime>
+<generatorID>25C88182-F988-B12C-857C-5FA0807A4696</generatorID>
+<ownerDesignName>Доставка</ownerDesignName>
+<referredTableLongName>DIPLOMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D672D96-1958-41AC-E0B1-27BB51029762</referredTableID>
+<keyObject>8063E48B-2506-3197-F971-70EA856F0A8E</keyObject>
+<referredKeyID>8063E48B-2506-3197-F971-70EA856F0A8E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>diploma_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

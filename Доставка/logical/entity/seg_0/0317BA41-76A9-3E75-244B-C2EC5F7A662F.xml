@@ -4,7 +4,7 @@
 <createdTime>2024-12-14 18:31:02 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
+<item key="0F32571E-DE49-B79F-C789-054FBCD652D7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2024-12-14 18:31:48 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
+<item key="0F32571E-DE49-B79F-C789-054FBCD652D7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,13 +29,13 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <preferredAbbreviation>recipe_id</preferredAbbreviation>
 </Attribute>
-<Attribute name="id позиции" id="7E4127E2-9E8B-A314-9DCC-1F20835B9352">
+<Attribute name="id позиции" id="23B96710-EDC4-4B02-B6F4-C8C26194EBA8">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-16 07:19:56 UTC</createdTime>
+<createdTime>2024-12-17 09:19:53 UTC</createdTime>
 <generatorID>BE5DCC65-9688-48C2-3B05-ADFAC096C793</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
+<item key="0F32571E-DE49-B79F-C789-054FBCD652D7" value="true"/>
 </engineerTo>
 <referedAttribute>97013316-1F57-9280-38E7-704A87DFDB1D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -49,7 +49,7 @@
 <generatorID>C2C0DB89-93D5-D763-9420-55AC2DAFC025</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
+<item key="0F32571E-DE49-B79F-C789-054FBCD652D7" value="true"/>
 </engineerTo>
 <referedAttribute>CB02E6B3-A8CC-BA95-78D4-1D8A9642C028</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,13 +57,13 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id инструкции" id="881113AB-9A7A-5777-6859-F1A3AAB12D50">
+<Attribute name="id инструкции" id="D80E865F-6E72-213B-C5BD-4CB61FEA6592">
 <createdBy>ivan</createdBy>
-<createdTime>2024-12-16 07:34:58 UTC</createdTime>
+<createdTime>2024-12-17 10:13:09 UTC</createdTime>
 <generatorID>BE1E4A7F-9E4C-29F2-E17D-865DA1E31BFD</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
+<item key="0F32571E-DE49-B79F-C789-054FBCD652D7" value="true"/>
 </engineerTo>
 <referedAttribute>C3415083-2CBA-2265-F40B-F1E86B6BCD43</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +76,7 @@
 <createdTime>2024-12-16 07:28:31 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
+<item key="0F32571E-DE49-B79F-C789-054FBCD652D7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -93,7 +93,7 @@
 <createdTime>2024-12-14 18:32:34 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="E18CB898-4F90-91E3-82F7-5BFB5CB3CBE7" value="true"/>
+<item key="0F32571E-DE49-B79F-C789-054FBCD652D7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

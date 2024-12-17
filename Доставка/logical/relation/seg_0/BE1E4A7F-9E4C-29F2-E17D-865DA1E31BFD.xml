@@ -3,13 +3,17 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-16 07:34:58 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="0F32571E-DE49-B79F-C789-054FBCD652D7" value="true"/>
+</engineerTo>
 <sourcePk>2380FFCC-C5F3-1413-4B87-3B99680921D4</sourcePk>
+<targetPk>666F9A5A-91AB-4984-010B-A31EF075AB9F</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>1AD561BF-DD2B-ACC1-EA20-18F2CCA84E44</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>0317BA41-76A9-3E75-244B-C2EC5F7A662F</targetEntity>
 <transferable>true</transferable>
 </Relation>

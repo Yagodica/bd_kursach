@@ -3,6 +3,9 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 11:49:14 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,6 +20,9 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 11:56:11 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -27,16 +33,22 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 12:45:21 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>date</preferredAbbreviation>
+<preferredAbbreviation>payment_date</preferredAbbreviation>
 </Attribute>
 <Attribute name="Способ оплаты" id="9F5B001F-F990-CC2E-7330-DEC9C148F7D9">
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 13:19:34 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -48,6 +60,9 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 18:53:51 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
@@ -62,6 +77,9 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 13:20:58 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>4CFAEDF7-9229-0977-5C13-27956EEB6104</attributeRef>
