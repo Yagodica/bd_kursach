@@ -30,16 +30,10 @@ CREATE UNIQUE INDEX address__idxv1 ON
 ALTER TABLE address ADD CONSTRAINT address_pk PRIMARY KEY ( address_id );
 
 CREATE TABLE apartment (
-    apartment_id       INTEGER NOT NULL,
-    apartment_num      INTEGER NOT NULL,
-    house_id_house     INTEGER NOT NULL,
-    address_address_id INTEGER
+    apartment_id   INTEGER NOT NULL,
+    apartment_num  INTEGER NOT NULL,
+    house_id_house INTEGER NOT NULL
 );
-
-CREATE UNIQUE INDEX apartment__idx ON
-    apartment (
-        address_address_id
-    ASC );
 
 ALTER TABLE apartment ADD CONSTRAINT apartment_pk PRIMARY KEY ( apartment_id );
 
@@ -164,16 +158,10 @@ CREATE TABLE event (
 ALTER TABLE event ADD CONSTRAINT event_pk PRIMARY KEY ( event_id );
 
 CREATE TABLE house (
-    id_house           INTEGER NOT NULL,
-    house_num          INTEGER NOT NULL,
-    street_id_street   INTEGER NOT NULL,
-    address_address_id INTEGER
+    id_house         INTEGER NOT NULL,
+    house_num        INTEGER NOT NULL,
+    street_id_street INTEGER NOT NULL
 );
-
-CREATE UNIQUE INDEX house__idx ON
-    house (
-        address_address_id
-    ASC );
 
 ALTER TABLE house ADD CONSTRAINT house_pk PRIMARY KEY ( id_house );
 
@@ -362,10 +350,6 @@ ALTER TABLE address
         REFERENCES house ( id_house );
 
 ALTER TABLE apartment
-    ADD CONSTRAINT apartment_address_fk FOREIGN KEY ( address_address_id )
-        REFERENCES address ( address_id );
-
-ALTER TABLE apartment
     ADD CONSTRAINT apartment_house_fk FOREIGN KEY ( house_id_house )
         REFERENCES house ( id_house );
 
@@ -435,10 +419,6 @@ ALTER TABLE employee
 ALTER TABLE event
     ADD CONSTRAINT event_banquet_hall_fk FOREIGN KEY ( banquet_hall_id )
         REFERENCES banquet_hall ( id );
-
-ALTER TABLE house
-    ADD CONSTRAINT house_address_fk FOREIGN KEY ( address_address_id )
-        REFERENCES address ( address_id );
 
 ALTER TABLE house
     ADD CONSTRAINT house_street_fk FOREIGN KEY ( street_id_street )
