@@ -4,6 +4,9 @@
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>30F9CCFF-85CC-FE7B-E10F-00E33E57EF22</importedID>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,6 +22,9 @@
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>15E68F51-DBBD-CCF2-0ED5-13C47A3DC298</importedID>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -30,6 +36,9 @@
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>C27C6A07-436E-B550-9EA9-09D9C9C3058A</importedID>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -42,6 +51,9 @@
 <createdTime>2024-12-12 18:30:17 UTC</createdTime>
 <generatorID>335BEE66-99A4-27F1-24EB-464ED8E21CF9</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <referedAttribute>867BC6C8-97B7-F2FF-A8A3-1FED5D093E4F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,6 +65,9 @@
 <createdTime>2024-12-12 18:35:27 UTC</createdTime>
 <generatorID>4E06D0F8-BADF-9113-BF64-96A7A8223F5F</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <referedAttribute>C1066160-0525-FF12-C246-C3B7DE22B01A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -66,6 +81,9 @@
 <createdTime>2024-12-12 17:45:41 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>634BCE5D-A27D-A9F5-AF26-5AD9969A09FE</importedID>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>9CB26345-0545-6F95-423F-7EE9CC2749C1</attributeRef>

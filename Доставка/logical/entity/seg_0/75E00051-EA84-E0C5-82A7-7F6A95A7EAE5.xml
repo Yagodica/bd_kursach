@@ -5,7 +5,7 @@
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>1D624D9C-EDDC-A3F7-4CCF-B6683ADE3888</importedID>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,7 +23,7 @@
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>D47C7BF7-8E44-C1CF-C305-40DD05AEE784</importedID>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -37,7 +37,7 @@
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>4759615B-58CD-8AD8-57C6-3E3B1FC734BF</importedID>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,7 +52,7 @@
 <generatorID>949F4AEE-1E73-7363-A949-34165A97C179</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <referedAttribute>C80631DB-781D-C0D4-C35D-1482C6992348</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -68,7 +68,7 @@
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>E7DABF7E-FB0F-103D-C57F-62D954742FBE</importedID>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

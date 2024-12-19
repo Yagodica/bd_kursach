@@ -5,7 +5,7 @@
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>2D3A45F7-0101-1D6E-FEF7-51434627BBB2</importedID>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,7 +23,7 @@
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>6D163159-6FC0-F247-2940-A871BD8F915B</importedID>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -37,7 +37,7 @@
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>3EF5EB55-02F6-0E88-9998-25632BC0E456</importedID>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,7 +52,7 @@
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>EF68280F-557E-E79A-6EAD-6DC2D944DC63</importedID>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <referedAttribute>867BC6C8-97B7-F2FF-A8A3-1FED5D093E4F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -67,7 +67,7 @@
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>495ECFCE-4DC0-C5C0-7139-50A3003081F2</importedID>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>F1D366AF-D0BE-B1CF-F499-4340317B1093</referedAttribute>
@@ -84,7 +84,7 @@
 <ownerDesignName>Доставка</ownerDesignName>
 <importedID>6F540A1F-D731-3146-3BD8-2842669BE471</importedID>
 <engineerTo>
-<item key="468A8F37-C0AC-10F7-24FE-215B12555A90" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -4,7 +4,7 @@
 <createdTime>2024-12-14 19:58:57 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2024-12-14 19:59:35 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <createdTime>2024-12-14 20:01:57 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,7 +48,7 @@
 <createdTime>2024-12-14 20:04:17 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,7 +63,7 @@
 <generatorID>4322FB52-7B2B-1FFE-F6F0-5624442BC7A5</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <referedAttribute>867CE893-A926-1B60-BEA0-6F249E77923C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -78,7 +78,7 @@
 <createdTime>2024-12-16 10:25:19 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="F14EE584-B6EA-1791-A527-D05EA1FD571A" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

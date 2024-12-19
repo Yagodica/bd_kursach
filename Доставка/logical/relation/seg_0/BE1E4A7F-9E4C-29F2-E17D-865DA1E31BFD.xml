@@ -4,10 +4,9 @@
 <createdTime>2024-12-16 07:34:58 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="0F32571E-DE49-B79F-C789-054FBCD652D7" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <sourcePk>2380FFCC-C5F3-1413-4B87-3B99680921D4</sourcePk>
-<targetPk>666F9A5A-91AB-4984-010B-A31EF075AB9F</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

@@ -3,6 +3,9 @@
 <createdBy>ivan</createdBy>
 <createdTime>2024-12-15 09:44:05 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
+<engineerTo>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
+</engineerTo>
 <sourcePk>209BB1E7-616F-D1C3-A3B0-D8AB7E6E5663</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

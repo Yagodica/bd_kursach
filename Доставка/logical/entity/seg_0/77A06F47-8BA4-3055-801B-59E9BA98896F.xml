@@ -4,7 +4,7 @@
 <createdTime>2024-12-15 14:01:28 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2024-12-15 14:33:26 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <generatorID>2C635B20-ECEB-206A-EC31-AC37D6AD3150</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <referedAttribute>CB02E6B3-A8CC-BA95-78D4-1D8A9642C028</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -49,7 +49,7 @@
 <generatorID>08261B25-AFA7-BC9F-7885-7FC8F091CBB5</generatorID>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <referedAttribute>D43B8CB3-2D23-DEEF-3EE5-E17CDBBEBFE3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,7 +62,7 @@
 <createdTime>2024-12-15 14:45:22 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -77,7 +77,7 @@
 <createdTime>2024-12-16 07:14:06 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -92,7 +92,7 @@
 <createdTime>2024-12-15 14:37:38 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -107,7 +107,7 @@
 <createdTime>2024-12-15 14:47:56 UTC</createdTime>
 <ownerDesignName>Доставка</ownerDesignName>
 <engineerTo>
-<item key="8985B03D-445D-D150-287E-7E4D9687BC56" value="true"/>
+<item key="724ADCAD-55F2-0C52-FB58-AEC68E234EB1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
